@@ -1,0 +1,33 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix heri: <http://taiwan_heritage.org/resource/> .
+
+heri:合院建築群 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:各個單體建築 .
+
+heri:建築類型 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:寺廟 .
+
+heri:三進格局 a crm:E22_Human_Made_Object,
+        crm:E55_Type ;
+    crm:P130_shows_features_of heri:前至後 ;
+    crm:P46_is_composed_of heri:三川殿,
+        heri:廟室仔,
+        heri:後殿,
+        heri:拜殿,
+        heri:正殿,
+        heri:過水廊 .
+
+heri:前至後 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:三川殿,
+        heri:廟室仔,
+        heri:後殿,
+        heri:拜殿,
+        heri:正殿,
+        heri:過水廊 .
+
+heri:各個單體建築 a crm:E22_Human_Made_Object ;
+    crm:P67_refers_to heri:所屬建築類型 .
+
+heri:寺廟 a crm:E22_Human_Made_Object ;
+    crm:P2_has_type heri:三進格局 .
+

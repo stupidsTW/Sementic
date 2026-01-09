@@ -1,0 +1,3465 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix heri: <http://taiwan_heritage.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+heri: crm:P130_shows_features_of heri:具有,
+        heri:固定,
+        heri:有,
+        heri:為,
+        heri:用於,
+        heri:經常使用,
+        heri:適用於,
+        heri:配合 ;
+    rdfs:comment "修整",
+        "傳統瓦作工具",
+        "切割",
+        "尖鑿狀",
+        "平鑿狀",
+        "打除",
+        "敲擊",
+        "瓦作司阜",
+        "石材縫隙",
+        "磚鏨",
+        "縫隙塞入",
+        "缺嘴將",
+        "造型",
+        "鋤頭擠仔",
+        "鋤頭與握柄",
+        "鐵鎚" .
+
+<http://taiwan_heritage.org/resource/-_海菜漿> crm:P130_shows_features_of heri:晚期強度 ;
+    rdfs:comment "狀態實體（高）" .
+
+<http://taiwan_heritage.org/resource/-_砂> crm:P130_shows_features_of heri:收縮裂縫 ;
+    rdfs:comment "狀態實體（減少）" .
+
+<http://taiwan_heritage.org/resource/-_糯米漿> crm:P130_shows_features_of heri:硬化 ;
+    rdfs:comment "狀態實體（加速）" .
+
+heri:1.5_公升 crm:P130_shows_features_of heri:清水 ;
+    rdfs:comment "物質" .
+
+heri:15_分鐘 crm:P130_shows_features_of heri:推搓 ;
+    rdfs:comment "過程" .
+
+heri:1_立方公尺 crm:P130_shows_features_of heri:土方 ;
+    rdfs:comment "物理單位" .
+
+<http://taiwan_heritage.org/resource/2_+_n(H₂O)> crm:P130_shows_features_of heri:CaO ;
+    rdfs:comment "化學反應（註：原文未明確標註反應物，但依上下文推測為生石灰）" .
+
+heri:3_公升 crm:P130_shows_features_of heri:清水 ;
+    rdfs:comment "物質" .
+
+heri:Activity__切割 a crm:E7_Activity ;
+    rdfs:label "動作切割" .
+
+heri:Activity__敲擊 a crm:E7_Activity ;
+    rdfs:label "動作敲擊" .
+
+heri:Activity__產生 a crm:E7_Activity ;
+    rdfs:label "動作產生" .
+
+heri:Activity__稱呼 a crm:E7_Activity ;
+    rdfs:label "動作稱呼" .
+
+heri:Activity__選用 a crm:E7_Activity ;
+    rdfs:label "動作選用" .
+
+heri:Activity_不鏽鋼_製作 a crm:E7_Activity ;
+    rdfs:label "不鏽鋼動作製作" .
+
+heri:Activity_不鏽鋼抹刀_施作面塗 a crm:E7_Activity ;
+    rdfs:label "不鏽鋼抹刀動作施作面塗" .
+
+heri:Activity_不鏽鋼抹刀刀身_扳動 a crm:E7_Activity ;
+    rdfs:label "不鏽鋼抹刀刀身動作扳動" .
+
+heri:Activity_不鏽鋼絲_紮綁 a crm:E7_Activity ;
+    rdfs:label "不鏽鋼絲動作紮綁" .
+
+heri:Activity_五尺仔_尺 a crm:E7_Activity ;
+    rdfs:label "五尺仔使用尺" ;
+    crm:P16_used_specific_object heri:尺 .
+
+heri:Activity_人_刮集 a crm:E7_Activity ;
+    rdfs:label "人動作刮集" .
+
+heri:Activity_人_捶打 a crm:E7_Activity ;
+    rdfs:label "人動作捶打" .
+
+heri:Activity_人_改用 a crm:E7_Activity ;
+    rdfs:label "人動作改用" .
+
+heri:Activity_人_潑灑 a crm:E7_Activity ;
+    rdfs:label "人動作潑灑" .
+
+heri:Activity_人_繼續捶打 a crm:E7_Activity ;
+    rdfs:label "人動作繼續捶打" .
+
+heri:Activity_人_覆蓋 a crm:E7_Activity ;
+    rdfs:label "人動作覆蓋" .
+
+heri:Activity_人類_土墼 a crm:E7_Activity ;
+    rdfs:label "人類使用土墼" ;
+    crm:P16_used_specific_object heri:土墼 .
+
+heri:Activity_人類_高嶺土 a crm:E7_Activity ;
+    rdfs:label "人類使用高嶺土" ;
+    crm:P16_used_specific_object heri:高嶺土 .
+
+heri:Activity_人類_黏土 a crm:E7_Activity ;
+    rdfs:label "人類使用黏土" ;
+    crm:P16_used_specific_object heri:黏土 .
+
+heri:Activity_仰合瓦_尺磚 a crm:E7_Activity ;
+    rdfs:label "仰合瓦使用尺磚" ;
+    crm:P16_used_specific_object heri:尺磚 .
+
+heri:Activity_公共建築_使用 a crm:E7_Activity ;
+    rdfs:label "公共建築動作使用" .
+
+heri:Activity_剁碎_纖維 a crm:E7_Activity ;
+    rdfs:label "剁碎動作纖維" .
+
+heri:Activity_勺子_舀出 a crm:E7_Activity ;
+    rdfs:label "勺子動作舀出" .
+
+heri:Activity_南壇水月庵_砂岩 a crm:E7_Activity ;
+    rdfs:label "南壇水月庵使用砂岩" ;
+    crm:P16_used_specific_object heri:砂岩 .
+
+heri:Activity_取清水_20公升 a crm:E7_Activity ;
+    rdfs:label "取清水動作20公升" .
+
+heri:Activity_取清水_25.5公升 a crm:E7_Activity ;
+    rdfs:label "取清水動作25.5公升" .
+
+heri:Activity_司阜_灰匙 a crm:E7_Activity ;
+    rdfs:label "司阜使用灰匙" ;
+    crm:P14_carried_out_by heri:司阜 ;
+    crm:P16_used_specific_object heri:灰匙 .
+
+heri:Activity_司阜_鋼片 a crm:E7_Activity ;
+    rdfs:label "司阜使用鋼片" ;
+    crm:P14_carried_out_by heri:司阜 ;
+    crm:P16_used_specific_object heri:鋼片 .
+
+heri:Activity_四齒釘耙_使用 a crm:E7_Activity ;
+    rdfs:label "四齒釘耙動作使用" .
+
+heri:Activity_四齒釘耙_拌合 a crm:E7_Activity ;
+    rdfs:label "四齒釘耙動作拌合" ;
+    crm:P16_used_specific_object heri:拌合 .
+
+heri:Activity_四齒釘耙_灰 a crm:E7_Activity ;
+    rdfs:label "四齒釘耙動作灰" .
+
+heri:Activity_四齒釘耙_灰體 a crm:E7_Activity ;
+    rdfs:label "四齒釘耙動作灰體" .
+
+heri:Activity_土_目的 a crm:E7_Activity ;
+    rdfs:label "土動作目的" .
+
+heri:Activity_土捧_具有 a crm:E7_Activity ;
+    rdfs:label "土捧動作具有" .
+
+heri:Activity_土方_拌入 a crm:E7_Activity ;
+    rdfs:label "土方動作拌入" .
+
+heri:Activity_土水司阜_材料 a crm:E7_Activity ;
+    rdfs:label "土水司阜使用材料" ;
+    crm:P14_carried_out_by heri:土水司阜 ;
+    crm:P16_used_specific_object heri:材料 .
+
+heri:Activity_土與稻草_拌合 a crm:E7_Activity ;
+    rdfs:label "土與稻草動作拌合" .
+
+<http://taiwan_heritage.org/resource/Activity_堆灰、抹灰_施作> a crm:E7_Activity ;
+    rdfs:label "堆灰、抹灰動作施作" .
+
+heri:Activity_塑形施作_需求 a crm:E7_Activity ;
+    rdfs:label "塑形施作動作需求" .
+
+heri:Activity_壓克力抹刀_摧光 a crm:E7_Activity ;
+    rdfs:label "壓克力抹刀動作摧光" ;
+    crm:P16_used_specific_object heri:摧光 .
+
+heri:Activity_壓印模具_使用 a crm:E7_Activity ;
+    rdfs:label "壓印模具動作使用" ;
+    crm:P16_used_specific_object heri:使用 .
+
+heri:Activity_壓印模具_自行開發 a crm:E7_Activity ;
+    rdfs:label "壓印模具動作自行開發" ;
+    crm:P16_used_specific_object heri:自行開發 .
+
+heri:Activity_夠裁剪金屬絲線_工具 a crm:E7_Activity ;
+    rdfs:label "夠裁剪金屬絲線動作工具" .
+
+heri:Activity_女性_跨越 a crm:E7_Activity ;
+    rdfs:label "女性動作跨越" .
+
+heri:Activity_子舀_土 a crm:E7_Activity ;
+    rdfs:label "子舀動作土" .
+
+heri:Activity_子舀_灰土 a crm:E7_Activity ;
+    rdfs:label "子舀動作灰土" ;
+    crm:P16_used_specific_object heri:灰土 .
+
+heri:Activity_安山岩_臺灣 a crm:E7_Activity ;
+    rdfs:label "安山岩動作臺灣" .
+
+heri:Activity_安山岩_非主流 a crm:E7_Activity ;
+    rdfs:label "安山岩動作非主流" .
+
+heri:Activity_寺廟_泉州白 a crm:E7_Activity ;
+    rdfs:label "寺廟使用泉州白" ;
+    crm:P16_used_specific_object heri:泉州白 .
+
+heri:Activity_寺廟_石雕龍柱 a crm:E7_Activity ;
+    rdfs:label "寺廟使用石雕龍柱" ;
+    crm:P16_used_specific_object heri:石雕龍柱 .
+
+heri:Activity_尺_刮平 a crm:E7_Activity ;
+    rdfs:label "尺使用刮平" ;
+    crm:P16_used_specific_object heri:刮平 .
+
+heri:Activity_尺_順平 a crm:E7_Activity ;
+    rdfs:label "尺使用順平" ;
+    crm:P16_used_specific_object heri:順平 .
+
+heri:Activity_岩相關石材_廣泛應用 a crm:E7_Activity ;
+    rdfs:label "岩相關石材動作廣泛應用" .
+
+heri:Activity_抹壁_抹灰 a crm:E7_Activity ;
+    rdfs:label "抹壁動作抹灰" .
+
+heri:Activity_抹灰_塑形 a crm:E7_Activity ;
+    rdfs:label "抹灰動作塑形" .
+
+heri:Activity_押尺_尺 a crm:E7_Activity ;
+    rdfs:label "押尺使用尺" ;
+    crm:P16_used_specific_object heri:尺 .
+
+heri:Activity_押板_使用 a crm:E7_Activity ;
+    rdfs:label "押板動作使用" ;
+    crm:P16_used_specific_object heri:使用 .
+
+heri:Activity_押板_順著 a crm:E7_Activity ;
+    rdfs:label "押板動作順著" .
+
+heri:Activity_拉設_水線 a crm:E7_Activity ;
+    rdfs:label "拉設使用水線" ;
+    crm:P16_used_specific_object heri:水線 .
+
+heri:Activity_捶打_容易 a crm:E7_Activity ;
+    rdfs:label "捶打動作容易" .
+
+heri:Activity_捶鍊_20分鐘 a crm:E7_Activity ;
+    rdfs:label "捶鍊動作20分鐘" .
+
+heri:Activity_掃把_刮出紋路 a crm:E7_Activity ;
+    rdfs:label "掃把動作刮出紋路" .
+
+heri:Activity_掃把_清掃 a crm:E7_Activity ;
+    rdfs:label "掃把動作清掃" .
+
+heri:Activity_排放_屋瓦 a crm:E7_Activity ;
+    rdfs:label "排放動作屋瓦" .
+
+heri:Activity_搗實_用力 a crm:E7_Activity ;
+    rdfs:label "搗實動作用力" .
+
+heri:Activity_摃灰_進行 a crm:E7_Activity ;
+    rdfs:label "摃灰動作進行" .
+
+heri:Activity_操作_摔繩 a crm:E7_Activity ;
+    rdfs:label "操作動作摔繩" .
+
+heri:Activity_收藏_置於高處 a crm:E7_Activity ;
+    rdfs:label "收藏動作置於高處" .
+
+heri:Activity_新莊廣福宮_國定古蹟 a crm:E7_Activity ;
+    rdfs:label "新莊廣福宮動作國定古蹟" .
+
+heri:Activity_施作者_使用 a crm:E7_Activity ;
+    rdfs:label "施作者動作使用" .
+
+heri:Activity_施作者_拿持 a crm:E7_Activity ;
+    rdfs:label "施作者動作拿持" .
+
+heri:Activity_施作者_持有 a crm:E7_Activity ;
+    rdfs:label "施作者動作持有" .
+
+heri:Activity_施作者_施作 a crm:E7_Activity ;
+    rdfs:label "施作者動作施作" .
+
+heri:Activity_日治時期_大量開採 a crm:E7_Activity ;
+    rdfs:label "日治時期動作大量開採" .
+
+heri:Activity_木_準備 a crm:E7_Activity ;
+    rdfs:label "木動作準備" .
+
+heri:Activity_木材_製作 a crm:E7_Activity ;
+    rdfs:label "木材動作製作" .
+
+heri:Activity_木杵_拔起 a crm:E7_Activity ;
+    rdfs:label "木杵動作拔起" ;
+    crm:P16_used_specific_object heri:拔起 .
+
+heri:Activity_木杵_搗擊 a crm:E7_Activity ;
+    rdfs:label "木杵動作搗擊" ;
+    crm:P16_used_specific_object heri:搗擊 .
+
+heri:Activity_木杵_灰 a crm:E7_Activity ;
+    rdfs:label "木杵動作灰" .
+
+heri:Activity_木杵_轉動 a crm:E7_Activity ;
+    rdfs:label "木杵動作轉動" .
+
+<http://taiwan_heritage.org/resource/Activity_木頭/竹棒_敲打> a crm:E7_Activity ;
+    rdfs:label "木頭/竹棒動作敲打" ;
+    crm:P16_used_specific_object heri:敲打 .
+
+heri:Activity_柴刀_剁斷 a crm:E7_Activity ;
+    rdfs:label "柴刀動作剁斷" ;
+    crm:P16_used_specific_object heri:剁斷 .
+
+heri:Activity_柴刀_纖維 a crm:E7_Activity ;
+    rdfs:label "柴刀動作纖維" ;
+    crm:P16_used_specific_object heri:纖維 .
+
+heri:Activity_橄欖石_組成 a crm:E7_Activity ;
+    rdfs:label "橄欖石動作組成" .
+
+heri:Activity_殼類灰_抹灰 a crm:E7_Activity ;
+    rdfs:label "殼類灰動作抹灰" .
+
+heri:Activity_殼類灰_提升 a crm:E7_Activity ;
+    rdfs:label "殼類灰動作提升" .
+
+heri:Activity_殼類灰_減少 a crm:E7_Activity ;
+    rdfs:label "殼類灰動作減少" .
+
+heri:Activity_水_加入 a crm:E7_Activity ;
+    rdfs:label "水動作加入" .
+
+heri:Activity_水_弄散 a crm:E7_Activity ;
+    rdfs:label "水動作弄散" .
+
+heri:Activity_水秤_水桶 a crm:E7_Activity ;
+    rdfs:label "水秤使用水桶" ;
+    crm:P16_used_specific_object heri:水桶 .
+
+heri:Activity_水面_高過 a crm:E7_Activity ;
+    rdfs:label "水面動作高過" .
+
+heri:Activity_海綿抹刀_塗抹 a crm:E7_Activity ;
+    rdfs:label "海綿抹刀動作塗抹" ;
+    crm:P16_used_specific_object heri:塗抹 .
+
+heri:Activity_海菜漿_使用 a crm:E7_Activity ;
+    rdfs:label "海菜漿動作使用" .
+
+heri:Activity_海菜漿_讓 a crm:E7_Activity ;
+    rdfs:label "海菜漿動作讓" .
+
+heri:Activity_添加材料_影響 a crm:E7_Activity ;
+    rdfs:label "添加材料動作影響" .
+
+heri:Activity_清水_放置 a crm:E7_Activity ;
+    rdfs:label "清水動作放置" .
+
+heri:Activity_清水_淋灑 a crm:E7_Activity ;
+    rdfs:label "清水動作淋灑" .
+
+heri:Activity_清水_潑淋 a crm:E7_Activity ;
+    rdfs:label "清水動作潑淋" .
+
+heri:Activity_清水_灰上 a crm:E7_Activity ;
+    rdfs:label "清水動作灰上" .
+
+heri:Activity_漚灰_漚灰 a crm:E7_Activity ;
+    rdfs:label "漚灰動作漚灰" .
+
+heri:Activity_漚灰_靜置 a crm:E7_Activity ;
+    rdfs:label "漚灰動作靜置" .
+
+heri:Activity_漢式傳統建築_圍牆 a crm:E7_Activity ;
+    rdfs:label "漢式傳統建築動作圍牆" .
+
+heri:Activity_漢式傳統建築_鋪面 a crm:E7_Activity ;
+    rdfs:label "漢式傳統建築動作鋪面" .
+
+heri:Activity_漿體_摃灰 a crm:E7_Activity ;
+    rdfs:label "漿體動作摃灰" .
+
+heri:Activity_澎湖地區_建築物 a crm:E7_Activity ;
+    rdfs:label "澎湖地區動作建築物" .
+
+heri:Activity_火成岩石材_北部大屯山 a crm:E7_Activity ;
+    rdfs:label "火成岩石材動作北部大屯山" .
+
+heri:Activity_火成岩石材_澎湖群島 a crm:E7_Activity ;
+    rdfs:label "火成岩石材動作澎湖群島" .
+
+heri:Activity_灰_加入 a crm:E7_Activity ;
+    rdfs:label "灰動作加入" .
+
+heri:Activity_灰_混合 a crm:E7_Activity ;
+    rdfs:label "灰動作混合" .
+
+heri:Activity_灰_繼續潑水 a crm:E7_Activity ;
+    rdfs:label "灰動作繼續潑水" .
+
+heri:Activity_灰_變粉狀 a crm:E7_Activity ;
+    rdfs:label "灰動作變粉狀" .
+
+heri:Activity_灰作幾何圖案_壓印 a crm:E7_Activity ;
+    rdfs:label "灰作幾何圖案動作壓印" .
+
+heri:Activity_灰團_捶打 a crm:E7_Activity ;
+    rdfs:label "灰團動作捶打" .
+
+heri:Activity_灰泥_抹灰 a crm:E7_Activity ;
+    rdfs:label "灰泥動作抹灰" .
+
+heri:Activity_灰泥砂漿_覆上 a crm:E7_Activity ;
+    rdfs:label "灰泥砂漿動作覆上" .
+
+heri:Activity_灰體_墊置 a crm:E7_Activity ;
+    rdfs:label "灰體動作墊置" .
+
+heri:Activity_灰體_推搓 a crm:E7_Activity ;
+    rdfs:label "灰體動作推搓" .
+
+heri:Activity_灰體_置入 a crm:E7_Activity ;
+    rdfs:label "灰體動作置入" .
+
+heri:Activity_灰體_翻動 a crm:E7_Activity ;
+    rdfs:label "灰體動作翻動" .
+
+heri:Activity_熟甓_粉刷 a crm:E7_Activity ;
+    rdfs:label "熟甓使用粉刷" ;
+    crm:P16_used_specific_object heri:粉刷 .
+
+heri:Activity_燕尾_不鏽鋼條 a crm:E7_Activity ;
+    rdfs:label "燕尾使用不鏽鋼條" ;
+    crm:P16_used_specific_object heri:不鏽鋼條 .
+
+heri:Activity_燕尾骨架_塑形 a crm:E7_Activity ;
+    rdfs:label "燕尾骨架動作塑形" .
+
+heri:Activity_燕尾骨架_完成 a crm:E7_Activity ;
+    rdfs:label "燕尾骨架動作完成" .
+
+heri:Activity_燕尾骨架_置放 a crm:E7_Activity ;
+    rdfs:label "燕尾骨架動作置放" .
+
+heri:Activity_燕尾骨架_覆上 a crm:E7_Activity ;
+    rdfs:label "燕尾骨架動作覆上" .
+
+heri:Activity_牆面_斗子 a crm:E7_Activity ;
+    rdfs:label "牆面使用斗子" ;
+    crm:P16_used_specific_object heri:斗子 .
+
+heri:Activity_牆面_施作 a crm:E7_Activity ;
+    rdfs:label "牆面動作施作" .
+
+heri:Activity_牆面_白灰 a crm:E7_Activity ;
+    rdfs:label "牆面使用白灰" ;
+    crm:P16_used_specific_object heri:白灰 .
+
+heri:Activity_玄武岩_主要組成礦物 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作主要組成礦物" .
+
+heri:Activity_玄武岩_同屬 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作同屬" .
+
+heri:Activity_玄武岩_廣泛使用 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作廣泛使用" .
+
+heri:Activity_玄武岩_新莊廣福宮 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作新莊廣福宮" .
+
+heri:Activity_玄武岩_柱礎 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作柱礎" .
+
+heri:Activity_玄武岩_鋪面 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作鋪面" .
+
+heri:Activity_玄武岩_高雄代天宮 a crm:E7_Activity ;
+    rdfs:label "玄武岩動作高雄代天宮" .
+
+heri:Activity_瓦刀_瓦刀 a crm:E7_Activity ;
+    rdfs:label "瓦刀使用瓦刀" ;
+    crm:P16_used_specific_object heri:瓦刀 .
+
+heri:Activity_瓦片_覆上 a crm:E7_Activity ;
+    rdfs:label "瓦片動作覆上" .
+
+heri:Activity_生灰_灑水 a crm:E7_Activity ;
+    rdfs:label "生灰動作灑水" .
+
+heri:Activity_生甓_粉刷 a crm:E7_Activity ;
+    rdfs:label "生甓使用粉刷" ;
+    crm:P16_used_specific_object heri:粉刷 .
+
+heri:Activity_發好的灰_過篩 a crm:E7_Activity ;
+    rdfs:label "發好的灰動作過篩" .
+
+heri:Activity_石塊_置入 a crm:E7_Activity ;
+    rdfs:label "石塊動作置入" .
+
+heri:Activity_石灰_倒入 a crm:E7_Activity ;
+    rdfs:label "石灰動作倒入" .
+
+heri:Activity_石灰石_CaCO3 a crm:E7_Activity ;
+    rdfs:label "石灰石動作CaCO3" .
+
+heri:Activity_石臼_準備 a crm:E7_Activity ;
+    rdfs:label "石臼動作準備" .
+
+heri:Activity_石虎_槌子 a crm:E7_Activity ;
+    rdfs:label "石虎使用槌子" ;
+    crm:P16_used_specific_object heri:槌子 .
+
+heri:Activity_石虎_無柄 a crm:E7_Activity ;
+    rdfs:label "石虎使用無柄" ;
+    crm:P16_used_specific_object heri:無柄 .
+
+heri:Activity_石雕龍柱_成為主流 a crm:E7_Activity ;
+    rdfs:label "石雕龍柱動作成為主流" .
+
+heri:Activity_砌_一層 a crm:E7_Activity ;
+    rdfs:label "砌動作一層" .
+
+heri:Activity_磚塊_疊砌 a crm:E7_Activity ;
+    rdfs:label "磚塊動作疊砌" .
+
+heri:Activity_竹棒_打碎 a crm:E7_Activity ;
+    rdfs:label "竹棒動作打碎" ;
+    crm:P16_used_specific_object heri:打碎 .
+
+heri:Activity_竹棒_麻布袋 a crm:E7_Activity ;
+    rdfs:label "竹棒動作麻布袋" .
+
+heri:Activity_竹篾_抗張 a crm:E7_Activity ;
+    rdfs:label "竹篾使用抗張" ;
+    crm:P16_used_specific_object heri:抗張 .
+
+<http://taiwan_heritage.org/resource/Activity_簷口處_瑞珠/瑞廉> a crm:E7_Activity ;
+    rdfs:label "簷口處使用瑞珠/瑞廉" ;
+    crm:P16_used_specific_object <http://taiwan_heritage.org/resource/瑞珠/瑞廉> .
+
+heri:Activity_米糠_充分拌合 a crm:E7_Activity ;
+    rdfs:label "米糠動作充分拌合" .
+
+heri:Activity_米糠_拌入 a crm:E7_Activity ;
+    rdfs:label "米糠動作拌入" .
+
+heri:Activity_紗布_覆蓋 a crm:E7_Activity ;
+    rdfs:label "紗布動作覆蓋" .
+
+heri:Activity_線腳板_完成 a crm:E7_Activity ;
+    rdfs:label "線腳板動作完成" .
+
+heri:Activity_線腳板_自行製作 a crm:E7_Activity ;
+    rdfs:label "線腳板動作自行製作" ;
+    crm:P16_used_specific_object heri:自行製作 .
+
+heri:Activity_編仔壁_米糠土 a crm:E7_Activity ;
+    rdfs:label "編仔壁使用米糠土" ;
+    crm:P16_used_specific_object heri:米糠土 .
+
+heri:Activity_緩凝作用_變得 a crm:E7_Activity ;
+    rdfs:label "緩凝作用動作變得" .
+
+heri:Activity_緩凝劑_提昇 a crm:E7_Activity ;
+    rdfs:label "緩凝劑動作提昇" .
+
+heri:Activity_緩凝劑_減緩 a crm:E7_Activity ;
+    rdfs:label "緩凝劑動作減緩" .
+
+heri:Activity_纖維_泡水 a crm:E7_Activity ;
+    rdfs:label "纖維動作泡水" .
+
+heri:Activity_脊作司阜_木板 a crm:E7_Activity ;
+    rdfs:label "脊作司阜使用木板" ;
+    crm:P14_carried_out_by heri:脊作司阜 ;
+    crm:P16_used_specific_object heri:木板 .
+
+heri:Activity_自創_壓克力抹刀 a crm:E7_Activity ;
+    rdfs:label "自創動作壓克力抹刀" ;
+    crm:P16_used_specific_object heri:壓克力抹刀 .
+
+heri:Activity_自製灰匙_修飾 a crm:E7_Activity ;
+    rdfs:label "自製灰匙動作修飾" .
+
+heri:Activity_臺灣_容易取得 a crm:E7_Activity ;
+    rdfs:label "臺灣動作容易取得" .
+
+heri:Activity_臺灣_泉州白石磉 a crm:E7_Activity ;
+    rdfs:label "臺灣使用泉州白石磉" ;
+    crm:P16_used_specific_object heri:泉州白石磉 .
+
+heri:Activity_臺灣_花崗岩 a crm:E7_Activity ;
+    rdfs:label "臺灣使用花崗岩" ;
+    crm:P16_used_specific_object heri:花崗岩 .
+
+heri:Activity_臺灣漢式傳統建築_土水材料 a crm:E7_Activity ;
+    rdfs:label "臺灣漢式傳統建築使用土水材料" ;
+    crm:P16_used_specific_object heri:土水材料 .
+
+heri:Activity_臺灣漢式傳統建築_砌體磚 a crm:E7_Activity ;
+    rdfs:label "臺灣漢式傳統建築使用砌體磚" ;
+    crm:P16_used_specific_object heri:砌體磚 .
+
+heri:Activity_臺灣漢式傳統建築_砌體磚種類 a crm:E7_Activity ;
+    rdfs:label "臺灣漢式傳統建築使用砌體磚種類" ;
+    crm:P16_used_specific_object heri:砌體磚種類 .
+
+heri:Activity_臺灣漢式建築_石材 a crm:E7_Activity ;
+    rdfs:label "臺灣漢式建築使用石材" ;
+    crm:P16_used_specific_object heri:石材 .
+
+heri:Activity_角閃石_組成 a crm:E7_Activity ;
+    rdfs:label "角閃石動作組成" .
+
+heri:Activity_輝石_組成 a crm:E7_Activity ;
+    rdfs:label "輝石動作組成" .
+
+heri:Activity_金屬鋼條_不鏽鋼 a crm:E7_Activity ;
+    rdfs:label "金屬鋼條使用不鏽鋼" ;
+    crm:P16_used_specific_object heri:不鏽鋼 .
+
+heri:Activity_金門莊西勢司阜_製作 a crm:E7_Activity ;
+    rdfs:label "金門莊西勢司阜動作製作" ;
+    crm:P14_carried_out_by heri:金門莊西勢司阜 .
+
+heri:Activity_鋤頭_分層 a crm:E7_Activity ;
+    rdfs:label "鋤頭動作分層" .
+
+heri:Activity_鋤頭_挖起 a crm:E7_Activity ;
+    rdfs:label "鋤頭動作挖起" ;
+    crm:P16_used_specific_object heri:挖起 .
+
+heri:Activity_鋤頭_挖開 a crm:E7_Activity ;
+    rdfs:label "鋤頭動作挖開" ;
+    crm:P16_used_specific_object heri:挖開 .
+
+heri:Activity_鋤頭_灰體 a crm:E7_Activity ;
+    rdfs:label "鋤頭動作灰體" ;
+    crm:P16_used_specific_object heri:灰體 .
+
+heri:Activity_鋤頭_翻鬆 a crm:E7_Activity ;
+    rdfs:label "鋤頭動作翻鬆" .
+
+heri:Activity_鋼片_抹灰 a crm:E7_Activity ;
+    rdfs:label "鋼片使用抹灰" ;
+    crm:P16_used_specific_object heri:抹灰 .
+
+heri:Activity_鋼片_砍劈 a crm:E7_Activity ;
+    rdfs:label "鋼片使用砍劈" ;
+    crm:P16_used_specific_object heri:砍劈 .
+
+heri:Activity_鋼製抹刀_不斷摧光 a crm:E7_Activity ;
+    rdfs:label "鋼製抹刀動作不斷摧光" .
+
+heri:Activity_鋼製抹刀_摧光 a crm:E7_Activity ;
+    rdfs:label "鋼製抹刀動作摧光" ;
+    crm:P16_used_specific_object heri:摧光 .
+
+heri:Activity_鎢鋼鎚_鎢鋼 a crm:E7_Activity ;
+    rdfs:label "鎢鋼鎚使用鎢鋼" ;
+    crm:P16_used_specific_object heri:鎢鋼 .
+
+heri:Activity_鏝刀_勺起 a crm:E7_Activity ;
+    rdfs:label "鏝刀動作勺起" .
+
+heri:Activity_鏝刀_抹灰 a crm:E7_Activity ;
+    rdfs:label "鏝刀動作抹灰" ;
+    crm:P16_used_specific_object heri:抹灰 .
+
+heri:Activity_鐵鎚_彎折 a crm:E7_Activity ;
+    rdfs:label "鐵鎚使用彎折" ;
+    crm:P16_used_specific_object heri:彎折 .
+
+heri:Activity_鐵鎚_敲入 a crm:E7_Activity ;
+    rdfs:label "鐵鎚動作敲入" .
+
+heri:Activity_鑽子_鑽孔 a crm:E7_Activity ;
+    rdfs:label "鑽子動作鑽孔" .
+
+heri:Activity_長勺_灰土 a crm:E7_Activity ;
+    rdfs:label "長勺動作灰土" .
+
+heri:Activity_雁子磚_疊砌 a crm:E7_Activity ;
+    rdfs:label "雁子磚動作疊砌" .
+
+heri:Activity_面_地磚 a crm:E7_Activity ;
+    rdfs:label "面使用地磚" ;
+    crm:P16_used_specific_object heri:地磚 .
+
+heri:Activity_養灰槽_準備 a crm:E7_Activity ;
+    rdfs:label "養灰槽動作準備" .
+
+heri:Activity_養灰池_攪拌 a crm:E7_Activity ;
+    rdfs:label "養灰池動作攪拌" .
+
+heri:Activity_養灰池_準備 a crm:E7_Activity ;
+    rdfs:label "養灰池動作準備" .
+
+heri:Activity_養灰池_置入 a crm:E7_Activity ;
+    rdfs:label "養灰池動作置入" .
+
+heri:Activity_養灰池_裝水 a crm:E7_Activity ;
+    rdfs:label "養灰池動作裝水" .
+
+heri:Activity_高溫燒製_油面 a crm:E7_Activity ;
+    rdfs:label "高溫燒製動作油面" .
+
+heri:Activity_高溫燒製_熟甓 a crm:E7_Activity ;
+    rdfs:label "高溫燒製動作熟甓" .
+
+heri:Activity_高雄代天宮_登錄 a crm:E7_Activity ;
+    rdfs:label "高雄代天宮動作登錄" .
+
+heri:Activity_高雄呂新義司阜_改進 a crm:E7_Activity ;
+    rdfs:label "高雄呂新義司阜動作改進" ;
+    crm:P14_carried_out_by heri:高雄呂新義司阜 .
+
+heri:Activity_麻布袋_剁斷 a crm:E7_Activity ;
+    rdfs:label "麻布袋動作剁斷" .
+
+heri:Activity_麻絨_加入 a crm:E7_Activity ;
+    rdfs:label "麻絨動作加入" .
+
+heri:Activity_黏土_充分拌合 a crm:E7_Activity ;
+    rdfs:label "黏土動作充分拌合" .
+
+heri:Eye_Brand crm:P130_shows_features_of heri:分部 ;
+    rdfs:comment "公司名稱（東南亞）" .
+
+heri:sóa_薑 crm:P130_shows_features_of heri:sóa-kiuⁿ ;
+    rdfs:comment "註音" .
+
+heri:三種磚 crm:P130_shows_features_of heri:15%,
+        heri:15MPa,
+        heri:吸水率,
+        heri:抗壓強度 ;
+    rdfs:comment "技術指標",
+        "技術指標（吸水率）",
+        "物理指標" .
+
+heri:不鏽鋼抹刀 crm:P130_shows_features_of heri:上塗,
+        heri:不沾黏灰體,
+        heri:刀身厚度,
+        heri:彈性,
+        heri:推刀,
+        heri:摧仔,
+        <http://taiwan_heritage.org/resource/摧仔（chhui-á）>,
+        heri:摧刀,
+        <http://taiwan_heritage.org/resource/摧刀（chhui-to）>,
+        heri:施作面塗,
+        heri:表面光滑 ;
+    rdfs:comment "名稱",
+        "工序",
+        "工藝應用",
+        "文化術語",
+        "物理特徵" .
+
+heri:不鏽鋼抹刀刀身 crm:P130_shows_features_of heri:可彎 ;
+    rdfs:comment "物理反應" .
+
+heri:不鏽鋼抹刀刀身厚度 crm:P130_shows_features_of heri:薄 ;
+    rdfs:comment "測量結果" .
+
+heri:不鏽鋼抹刀刀身彎曲 crm:P130_shows_features_of heri:微微 ;
+    rdfs:comment "測量結果" .
+
+heri:不鏽鋼抹刀表面 crm:P130_shows_features_of heri:不沾黏,
+        heri:光滑,
+        heri:灰體 ;
+    rdfs:comment "測量結果",
+        "物理互動" .
+
+heri:中首 crm:P130_shows_features_of heri:鏝身與握柄 ;
+    crm:P53_has_former_or_current_location heri:鏝刀中央 ;
+    rdfs:comment "註解：結構" .
+
+heri:二種磚 crm:P130_shows_features_of heri:13%,
+        <http://taiwan_heritage.org/resource/200_kgf/cm²>,
+        heri:20MPa ;
+    rdfs:comment "技術指標",
+        "技術指標（吸水率）",
+        "技術指標（單位轉換）" .
+
+heri:五尺仔類似物 crm:P130_shows_features_of heri:不定 ;
+    rdfs:comment "參考依據" .
+
+heri:交通 crm:P130_shows_features_of heri:運輸 ;
+    rdfs:comment "物流條件" .
+
+heri:交通運輸 crm:P130_shows_features_of heri:可選性,
+        heri:石材選擇 ;
+    rdfs:comment "影響因素",
+        "材料供應" .
+
+heri:作法 crm:P130_shows_features_of heri:傳統 ;
+    rdfs:comment "文化背景" .
+
+heri:使用量 crm:P130_shows_features_of heri:抗壓強度 ;
+    rdfs:comment "註解：正相關" .
+
+heri:傳統擠仔 crm:P130_shows_features_of heri:三件 ;
+    rdfs:comment "結構" .
+
+heri:優越的標準紅磚 crm:P130_shows_features_of heri:漢式傳統建築 ;
+    rdfs:comment "文化/建築風格" .
+
+heri:先端 crm:P130_shows_features_of heri:造型 ;
+    rdfs:comment "物理特徵" .
+
+heri:光滑面 crm:P130_shows_features_of heri:坐灰,
+        heri:黏著性不足 ;
+    rdfs:comment "材料問題",
+        "材料接觸" .
+
+<http://taiwan_heritage.org/resource/光滑面（行為實體）> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/黏著性不足（狀態實體）> ;
+    rdfs:comment "材料缺陷" .
+
+heri:內角抹刀 crm:P130_shows_features_of heri:修飾,
+        heri:修飾牆體轉角,
+        heri:工具,
+        heri:轉折,
+        heri:轉角部位 ;
+    rdfs:comment "工程工具",
+        "工程應用",
+        "建築修飾",
+        "形狀變化（圓角/直角）",
+        "轉角部位" .
+
+heri:八角形磚 crm:P130_shows_features_of heri:六角形特性,
+        heri:矩形特性 ;
+    rdfs:comment "形狀限制" .
+
+heri:刀身形狀 crm:P130_shows_features_of heri:灰泥紋路 ;
+    rdfs:comment "物理結果（行為實體：刀身；狀態實體：紋路）" .
+
+heri:刀身材料 crm:P130_shows_features_of heri:工作需求 ;
+    rdfs:comment "功能" .
+
+heri:分類 crm:P130_shows_features_of heri:主要功能,
+        heri:全數功能,
+        heri:規格 ;
+    rdfs:comment "分類局限",
+        "分類標準",
+        "材料標準" .
+
+heri:刷子 crm:P130_shows_features_of heri:使牆體,
+        heri:修補,
+        heri:沾水 ;
+    rdfs:comment "刷牆壁",
+        "小空隙",
+        "撫順表面",
+        "濕潤" .
+
+heri:加入麻絨 crm:P103_was_intended_for heri:避免 .
+
+heri:動作 crm:P130_shows_features_of heri:漚灰 ;
+    rdfs:comment "術語" .
+
+heri:勾縫抹刀 crm:P130_shows_features_of heri:清水磚,
+        heri:磚柱 ;
+    rdfs:comment "材料",
+        "結構" .
+
+heri:北勢湖石 crm:P130_shows_features_of heri:砂岩 ;
+    crm:P2_has_type heri:不一,
+        heri:品質 ;
+    crm:P53_has_former_or_current_location heri:臺灣北部 ;
+    rdfs:comment "材質" .
+
+heri:北港街屋民厝 crm:P2_has_type heri:交丁疊砌,
+        heri:牆面厚度,
+        heri:磚尺寸 .
+
+heri:北部安山岩 crm:P130_shows_features_of heri:内岩石,
+        heri:區分,
+        heri:士林石,
+        heri:淡水石,
+        heri:焿仔藔產硬石 ;
+    rdfs:comment "分類標準",
+        "石材名稱" .
+
+heri:南壇水月庵 crm:P53_has_former_or_current_location heri:嘉義新港 .
+
+heri:原料來源 crm:P130_shows_features_of heri:特性 ;
+    rdfs:comment "物理/化學屬性" .
+
+heri:參考線 crm:P130_shows_features_of heri:施作參考 ;
+    rdfs:comment "工程指引" .
+
+heri:另一手 crm:P130_shows_features_of heri:土捧 ;
+    rdfs:comment "工具" .
+
+<http://taiwan_heritage.org/resource/台北、淡水> crm:P130_shows_features_of heri:旌表 ;
+    rdfs:comment "使用範圍" .
+
+heri:同類工具 crm:P130_shows_features_of heri:轉角處 ;
+    rdfs:comment "工具" .
+
+heri:吳通壽 crm:P130_shows_features_of heri:紅帶 ;
+    rdfs:comment "動作" .
+
+heri:吸附墨水的線繩 crm:P130_shows_features_of heri:彈射 ;
+    rdfs:comment "行為" .
+
+heri:呂新義司阜 crm:P130_shows_features_of heri:沉列仔,
+        heri:浮列仔 ;
+    rdfs:comment "文化名稱（phû-lia̍t-á）",
+        "文化名稱（tîm-lia̍t-á）" .
+
+heri:唭里岸石 crm:P130_shows_features_of heri:砂岩 ;
+    crm:P2_has_type heri:脆弱,
+        heri:質地 ;
+    crm:P53_has_former_or_current_location heri:臺灣北部 ;
+    rdfs:comment "材質" .
+
+heri:四齒釘耙 crm:P130_shows_features_of heri:均勻拌合,
+        heri:翻動,
+        heri:翻鬆 ;
+    rdfs:comment "行為" .
+
+heri:圓盤鋸 crm:P130_shows_features_of heri:現代工具 ;
+    rdfs:comment "工具分類" .
+
+<http://taiwan_heritage.org/resource/土1.6_桶（9.2_公斤）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:夯土配比 .
+
+heri:土墼土 crm:P130_shows_features_of heri:土墼 ;
+    rdfs:comment "材料用途" .
+
+heri:土壤 crm:P130_shows_features_of heri:膠體狀態 ;
+    rdfs:comment "物質狀態" .
+
+heri:土硃 crm:P130_shows_features_of heri:土朱,
+        heri:朱紅色,
+        heri:橘紅色,
+        heri:氧化鐵,
+        heri:灰體,
+        heri:礦石,
+        heri:調色材 ;
+    crm:P2_has_type heri:顯色力 ;
+    rdfs:comment "化學成分",
+        "名稱變體",
+        "材料分類",
+        "材料混合",
+        "物質類別",
+        "色調特徵",
+        "視覺效果" .
+
+heri:土與灰 crm:P130_shows_features_of heri:膠體 ;
+    rdfs:comment "術語定義" .
+
+heri:土與稻草 crm:P130_shows_features_of heri:米糠 ;
+    rdfs:comment "添加物" .
+
+heri:堅硬鋼片 crm:P130_shows_features_of heri:砍劈工具 ;
+    rdfs:comment "轉用" .
+
+heri:塊狀灰 crm:P130_shows_features_of heri:生灰 ;
+    rdfs:comment "材料特徵" .
+
+heri:塑膠抹刀 crm:P130_shows_features_of heri:上塗 ;
+    rdfs:comment "工序" .
+
+heri:墨倉 crm:P130_shows_features_of heri:圓斗狀 ;
+    rdfs:comment "物理特徵" .
+
+heri:墨倉裡的墨汁 crm:P130_shows_features_of heri:染色 ;
+    rdfs:comment "行為" .
+
+heri:墼 crm:P130_shows_features_of heri:10%_黏土,
+        heri:25%_沉泥,
+        heri:25%_細砂,
+        heri:35%_粗砂骨材,
+        <http://taiwan_heritage.org/resource/4（砂）>,
+        <http://taiwan_heritage.org/resource/6（黏土）>,
+        heri:抗壓強度不足,
+        heri:水氣侵蝕,
+        heri:沉泥,
+        heri:粗砂骨材,
+        heri:細砂,
+        heri:黏土 ;
+    rdfs:comment "材料",
+        "材料比例",
+        "材料（0.002 mm < D < 0.075 mm）",
+        "材料（0.075 mm < D < 0.425 mm）",
+        "材料（D < 0.002 mm）",
+        "材料（D > 0.425 mm）",
+        "物理特性（行為實體：墼；狀態實體：侵蝕）",
+        "物理特性（行為實體：墼；狀態實體：抗壓強度）" .
+
+heri:壁土發黑 crm:P130_shows_features_of heri:碳化 ;
+    rdfs:comment "化學因果" .
+
+heri:壁面 crm:P130_shows_features_of heri:光澤感,
+        heri:平滑,
+        heri:摧光,
+        heri:摩擦發熱,
+        heri:有光澤,
+        heri:灰體,
+        heri:發熱,
+        heri:蛋殼 ;
+    rdfs:comment "工藝行為",
+        "感官特徵",
+        "感官結果",
+        "材料組成",
+        "比喻特徵",
+        "物理反應",
+        "物理現象" .
+
+heri:壁面發熱 crm:P130_shows_features_of heri:摩擦 ;
+    rdfs:comment "物理因果" .
+
+heri:外牆 crm:P130_shows_features_of heri:大石砛 ;
+    rdfs:comment "建築技術" .
+
+heri:外角抹刀 crm:P130_shows_features_of heri:修飾,
+        heri:修飾牆體轉角,
+        heri:工具,
+        heri:轉折,
+        heri:轉角部位 ;
+    rdfs:comment "工程工具",
+        "工程應用",
+        "建築修飾",
+        "形狀變化（圓角/直角）",
+        "轉角部位" .
+
+heri:大埤三山國王廟 crm:P130_shows_features_of heri:砂岩柱礎 ;
+    rdfs:comment "歷史遺跡" .
+
+heri:大直石 crm:P130_shows_features_of heri:品質,
+        heri:材質,
+        heri:石材,
+        heri:砂岩,
+        heri:質量 ;
+    crm:P2_has_type heri:材質 ;
+    crm:P53_has_former_or_current_location heri:臺灣北部 ;
+    rdfs:comment "優良性",
+        "材質",
+        "材質優劣",
+        "物理特徵（註：原文“相對較好”轉化為“質量”）" .
+
+heri:央部 crm:P130_shows_features_of heri:位置,
+        heri:塗抹 ;
+    rdfs:comment "功能",
+        "空間定位" .
+
+heri:子 crm:P130_shows_features_of heri:杓子 ;
+    rdfs:comment "工具名稱" .
+
+heri:實際採集案例 crm:P130_shows_features_of heri:上述比例 ;
+    rdfs:comment "現場調查結果" .
+
+heri:寺廟 crm:P130_shows_features_of heri:壁堵 ;
+    rdfs:comment "建築部位" .
+
+heri:封甓 crm:P130_shows_features_of heri:裝修方法 ;
+    rdfs:comment "方法類型" .
+
+heri:尺度較小者 crm:P130_shows_features_of heri:局部抹灰 ;
+    rdfs:comment "用途" .
+
+heri:屋脊 crm:P130_shows_features_of heri:形貌 ;
+    rdfs:comment "自動提取" .
+
+heri:屋頂脊飾 crm:P130_shows_features_of heri:造型 ;
+    rdfs:comment "行為" .
+
+heri:岩相關石材 crm:P130_shows_features_of heri:日治時期 ;
+    rdfs:comment "歷史時期" .
+
+heri:工廠 crm:P130_shows_features_of heri:灰匙 ;
+    rdfs:comment "產品" .
+
+heri:工廠或專門店 crm:P130_shows_features_of heri:灰匙 ;
+    rdfs:comment "行為" .
+
+heri:戰後 crm:P130_shows_features_of heri:標準紅磚 ;
+    rdfs:comment "歷史延續",
+        "歷史時期" .
+
+heri:手工 crm:P130_shows_features_of heri:塞入 ;
+    rdfs:comment "動作" .
+
+heri:技術 crm:P130_shows_features_of heri:裁切 ;
+    rdfs:comment "材料加工" .
+
+heri:技術進步 crm:P130_shows_features_of heri:選擇 ;
+    rdfs:comment "材料多元化" .
+
+heri:抗拉強度 crm:P130_shows_features_of heri:海菜漿用量 ;
+    rdfs:comment "統計結果" .
+
+heri:抹土 crm:P130_shows_features_of heri:漚土 ;
+    rdfs:comment "施工步驟" .
+
+heri:押尺仔 crm:P130_shows_features_of heri:對準,
+        heri:工具,
+        heri:撫平,
+        heri:矯正工具 ;
+    rdfs:comment "功能",
+        "轉用",
+        "類別" .
+
+heri:捶鍊程度 crm:P130_shows_features_of heri:特性 ;
+    rdfs:comment "物理屬性" .
+
+heri:掃把 a crm:E22_Human_Made_Object ;
+    crm:P103_was_intended_for heri:增加交丁,
+        heri:維持整潔 ;
+    crm:P130_shows_features_of heri:塑膠製,
+        heri:壁體灰作,
+        heri:木製,
+        heri:瓦作司阜 ;
+    crm:P45_consists_of heri:塑膠,
+        heri:塑膠製,
+        heri:木製 ;
+    rdfs:comment "人員",
+        "工程應用",
+        "底塗施作",
+        "材質" .
+
+heri:握裹力 crm:P130_shows_features_of heri:耐久性 ;
+    rdfs:comment "構造品質" .
+
+heri:摃灰後灰體 crm:P130_shows_features_of heri:粒體組織緊密 ;
+    rdfs:comment "物理特徵（顯微鏡觀察）" .
+
+heri:摔繩 crm:P130_shows_features_of heri:線痕 ;
+    rdfs:comment "結果" .
+
+heri:操作者 crm:P130_shows_features_of heri:土捧,
+        heri:抹刀 ;
+    rdfs:comment "工具" .
+
+heri:擠仔 crm:P130_shows_features_of heri:劈開石材,
+        heri:鑽子 ;
+    rdfs:comment "主要工具",
+        "工具組合" .
+
+<http://taiwan_heritage.org/resource/擠仔（chiⁿ-á）> crm:P130_shows_features_of heri:手工具 ;
+    rdfs:comment "工具分類" .
+
+heri:收藏 crm:P130_shows_features_of heri:五尺仔 ;
+    rdfs:comment "註解：行為" .
+
+heri:改進 crm:P103_was_intended_for heri:避免發黑 ;
+    crm:P130_shows_features_of heri:灰壁塗抹 ;
+    rdfs:comment "工藝目標" .
+
+heri:放樣階段 crm:P130_shows_features_of heri:拉線量測 ;
+    rdfs:comment "工序步驟" .
+
+<http://taiwan_heritage.org/resource/敲擊/切割> crm:P130_shows_features_of heri:工具 ;
+    rdfs:comment "必備（石砌司阜）" .
+
+heri:敲擊端 crm:P130_shows_features_of heri:内凹 ;
+    rdfs:comment "物理特徵" .
+
+heri:斗子砌磚 crm:P2_has_type heri:厚度,
+        heri:寬度,
+        heri:高度 .
+
+heri:新加坡 crm:P130_shows_features_of heri:購買 ;
+    rdfs:comment "地點" .
+
+heri:新北地區 crm:P130_shows_features_of heri:鎢鋼鎚 ;
+    rdfs:comment "地區發展" .
+
+heri:施工現場 crm:P130_shows_features_of heri:廢棄木料 ;
+    rdfs:comment "材料來源" .
+
+heri:施工邊緣 crm:P130_shows_features_of heri:一直線 ;
+    rdfs:comment "物理狀態" .
+
+heri:日本 crm:P2_has_type heri:鏝刀 .
+
+heri:日本商人 crm:P130_shows_features_of heri:煉瓦成形機械,
+        heri:霍夫曼窯 ;
+    rdfs:comment "技術引進" .
+
+heri:日治時期之前 crm:P130_shows_features_of heri:使用 ;
+    rdfs:comment "歷史時期" .
+
+heri:曲率較大者 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/phak-hiā（覆瓦）>,
+        heri:曲率 ;
+    rdfs:comment "材料分類",
+        "物理特徵" .
+
+heri:最大擠仔 crm:P130_shows_features_of heri:孔洞 ;
+    rdfs:comment "工序" .
+
+heri:最好的磚 crm:P130_shows_features_of heri:10%,
+        <http://taiwan_heritage.org/resource/300_kgf/cm²>,
+        heri:30Mpa ;
+    rdfs:comment "技術指標",
+        "技術指標（吸水率）",
+        "技術指標（單位轉換）" .
+
+heri:木抹刀 crm:P130_shows_features_of heri:平整度,
+        heri:底塗修正 ;
+    rdfs:comment "工序",
+        "物理特徵" .
+
+heri:木棒 crm:P130_shows_features_of heri:刻度,
+        heri:測量 ;
+    rdfs:comment "工具用途",
+        "物理特徵" .
+
+heri:末端 crm:P130_shows_features_of heri:造型 ;
+    rdfs:comment "物理特徵" .
+
+heri:本章 crm:P130_shows_features_of heri:土,
+        heri:灰 ;
+    rdfs:comment "術語定義" .
+
+heri:材料組合 crm:P103_was_intended_for heri:夯土調製 .
+
+heri:板瓦 crm:P130_shows_features_of heri:厚度,
+        heri:寬度,
+        <http://taiwan_heritage.org/resource/瑞廉（sūi-liâm）>,
+        heri:長度,
+        heri:類似笑瓦 ;
+    rdfs:comment "外觀特徵",
+        "物理特徵（0.6-1公分）",
+        "物理特徵（21-24公分）",
+        "物理特徵（24-26公分）",
+        "結構配件" .
+
+heri:桃形灰匙 crm:P130_shows_features_of heri:工具,
+        heri:抹灰,
+        heri:盛灰,
+        heri:砍劈 ;
+    rdfs:comment "功能",
+        "類別" .
+
+heri:業界 crm:P130_shows_features_of heri:水泥 ;
+    rdfs:comment "材料習慣" .
+
+heri:水坑 crm:P130_shows_features_of heri:拌合 ;
+    rdfs:comment "灰泥" .
+
+<http://taiwan_heritage.org/resource/水線、墨斗、墜仔、水秤、水平尺> crm:P130_shows_features_of heri:工具套 ;
+    rdfs:comment "關聯性" .
+
+heri:水返腳石 crm:P130_shows_features_of heri:品質,
+        heri:材質,
+        heri:石材,
+        heri:砂岩,
+        heri:質量 ;
+    crm:P2_has_type heri:材質 ;
+    crm:P53_has_former_or_current_location heri:臺灣北部 ;
+    rdfs:comment "優良性",
+        "材質",
+        "材質優劣",
+        "物理特徵（註同上）" .
+
+heri:水量 crm:P130_shows_features_of heri:5-10_公分 ;
+    rdfs:comment "尺寸" .
+
+heri:水面 crm:P130_shows_features_of heri:保水,
+        heri:灰漿面,
+        heri:避免,
+        heri:養護 ;
+    rdfs:comment "功能",
+        "後果",
+        "物理操作（5-10公分）" .
+
+heri:泥 crm:P130_shows_features_of heri:25% ;
+    rdfs:comment "材料成分" .
+
+heri:海綿 crm:P130_shows_features_of heri:不容易刮傷,
+        heri:刀身,
+        heri:刮傷,
+        heri:清洗髒污,
+        heri:清理填補,
+        heri:牆體表面 ;
+    rdfs:comment "修繕",
+        "清潔",
+        "物理特徵",
+        "結構" .
+
+heri:海菜漿 crm:P130_shows_features_of heri:抗壓強度,
+        heri:緩凝作用 ;
+    rdfs:comment "原因分析",
+        "正相關" .
+
+heri:海菜粉 crm:P130_shows_features_of heri:添加材料 ;
+    crm:P2_has_type heri:緩凝劑 ;
+    rdfs:comment "註解：實體" .
+
+heri:清水磚柱 crm:P130_shows_features_of heri:柱狀,
+        heri:灰劍,
+        heri:雁子磚 ;
+    rdfs:comment "材料來源",
+        "結構",
+        "結構特徵" .
+
+heri:漚土時間 crm:P130_shows_features_of heri:1_個月,
+        heri:1_星期,
+        heri:不等 ;
+    rdfs:comment "時間範圍",
+        "測量結果",
+        "變異性" .
+
+heri:漢式 crm:P130_shows_features_of heri:元素 ;
+    rdfs:comment "文化類型" .
+
+heri:漿體 crm:P130_shows_features_of heri:高過 ;
+    rdfs:comment "空間關係" .
+
+heri:濱海地區 crm:P130_shows_features_of heri:硓𥑮石 ;
+    crm:P53_has_former_or_current_location heri:澎湖,
+        heri:臺南安平,
+        heri:高雄旗津 ;
+    rdfs:comment "建築材料" .
+
+heri:灑水 crm:P130_shows_features_of heri:冒煙,
+        heri:發熱 ;
+    rdfs:comment "狀態變化（註：行為實體：灑水；狀態實體：冒煙）",
+        "狀態變化（註：行為實體：灑水；狀態實體：發熱）" .
+
+heri:灰作 crm:P130_shows_features_of heri:防水性能 ;
+    rdfs:comment "註解：物理特徵" .
+
+heri:灰團 crm:P130_shows_features_of heri:不易斷裂,
+        heri:手按不裂,
+        heri:拉開成條,
+        heri:面呈光澤 ;
+    rdfs:comment "物理特徵" .
+
+heri:灰土碳化 crm:P130_shows_features_of heri:發熱 ;
+    rdfs:comment "物理因果" .
+
+heri:灰壁 crm:P130_shows_features_of heri:開裂 ;
+    rdfs:comment "註解：物理狀態" .
+
+heri:灰桶 crm:P130_shows_features_of heri:重量,
+        heri:重量較重 ;
+    crm:P53_has_former_or_current_location heri:低處 ;
+    rdfs:comment "物理特徵（註：重量較重）",
+        "重量" .
+
+heri:灰漿 crm:P130_shows_features_of heri:保水,
+        heri:硬化,
+        heri:養護 ;
+    rdfs:comment "功能",
+        "狀態" .
+
+heri:灰縫 crm:P130_shows_features_of heri:大面積,
+        heri:完成樣貌,
+        heri:快速 ;
+    rdfs:comment "目標",
+        "範圍",
+        "速度" .
+
+<http://taiwan_heritage.org/resource/灰（材料）> crm:P130_shows_features_of heri:不同用途 ;
+    rdfs:comment "註解：不同用途影響添加材料選擇" .
+
+heri:燒製 crm:P130_shows_features_of heri:屋瓦,
+        heri:減少空氣,
+        heri:紅磚,
+        heri:鋪面,
+        heri:面磚 ;
+    rdfs:comment "地坪用途",
+        "建築用途",
+        "牆體用途",
+        "結構用途",
+        "行為動作" .
+
+heri:燒製品 crm:P130_shows_features_of heri:紅色 ;
+    rdfs:comment "外觀特徵" .
+
+heri:燕尾樣板 crm:P130_shows_features_of heri:軟尺 ;
+    rdfs:comment "自動提取" .
+
+heri:牆體 crm:P130_shows_features_of heri:疊砌,
+        heri:程度 ;
+    rdfs:comment "建築步驟",
+        "進度" .
+
+heri:牆體邊角 crm:P130_shows_features_of heri:部位 ;
+    rdfs:comment "行為" .
+
+heri:狹義觀音山石 crm:P130_shows_features_of heri:淡水石 ;
+    rdfs:comment "定義" .
+
+heri:瑞廉 crm:P130_shows_features_of heri:滴水 ;
+    rdfs:comment "防水結構" .
+
+heri:瓦作材 crm:P130_shows_features_of heri:仰合瓦,
+        heri:燒製技術 ;
+    rdfs:comment "屋頂材料",
+        "材料製程" .
+
+heri:瓦當 crm:P130_shows_features_of heri:收尾,
+        heri:獅頭 ;
+    rdfs:comment "建築裝飾",
+        "裝飾圖案" .
+
+heri:田野調查 crm:P130_shows_features_of heri:金門地區 ;
+    rdfs:comment "地區" .
+
+<http://taiwan_heritage.org/resource/疊砌/鋪設> crm:P130_shows_features_of heri:切割,
+        heri:剪裁,
+        heri:敲擊,
+        heri:膠結漿體塗佈 ;
+    rdfs:comment "動作" .
+
+heri:疊砌磚石 crm:P130_shows_features_of heri:切割,
+        heri:剪裁,
+        heri:敲擊 ;
+    rdfs:comment "作業動作" .
+
+heri:石塊 crm:P130_shows_features_of heri:形狀 ;
+    rdfs:comment "修整後" .
+
+heri:石槽 crm:P130_shows_features_of heri:寬度,
+        heri:蠣殼灰,
+        heri:長度,
+        heri:高度 ;
+    rdfs:comment "200公分",
+        "30公分",
+        "40公分",
+        "67.5公斤" .
+
+<http://taiwan_heritage.org/resource/石灰1_桶（2.3_公斤）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:夯土配比 .
+
+heri:石頭 crm:P130_shows_features_of heri:狀態 ;
+    rdfs:comment "結果" .
+
+heri:砂 crm:P130_shows_features_of heri:2桶 ;
+    rdfs:comment "重量單位：公斤（13公斤）" .
+
+<http://taiwan_heritage.org/resource/砂/土> crm:P130_shows_features_of heri:灰土,
+        heri:灰砂 ;
+    rdfs:comment "產物" .
+
+<http://taiwan_heritage.org/resource/砂2_桶（13_公斤）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:夯土配比 .
+
+heri:砂土 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土 .
+
+heri:砂輪機 crm:P130_shows_features_of heri:現代工具 ;
+    rdfs:comment "工具分類" .
+
+heri:砌體構造 crm:P130_shows_features_of heri:工具 ;
+    rdfs:comment "類型" .
+
+heri:砌體表層 crm:P130_shows_features_of heri:刮傷 ;
+    rdfs:comment "保護" .
+
+heri:磁磚抹刀 crm:P130_shows_features_of heri:施作地磚,
+        heri:施作牆面磁磚,
+        heri:鋸齒狀刀身,
+        heri:鋸齒狀抹刀,
+        heri:鋼製 ;
+    rdfs:comment "專業術語",
+        "工程應用",
+        "材料",
+        "物理特徵" .
+
+<http://taiwan_heritage.org/resource/磚、瓦、石> crm:P130_shows_features_of heri:三項材料 ;
+    rdfs:comment "材料分類" .
+
+heri:磚鎚 crm:P130_shows_features_of heri:槌頭 ;
+    rdfs:comment "單邊尖/另一邊平面" .
+
+heri:稻草土 crm:P130_shows_features_of heri:稻草 ;
+    rdfs:comment "材料組成" .
+
+heri:稻草量 crm:P130_shows_features_of heri:不沾 ;
+    rdfs:comment "狀態" .
+
+heri:空氣 crm:P130_shows_features_of heri:二氧化碳 ;
+    rdfs:comment "物理操作" .
+
+heri:空間 crm:P130_shows_features_of heri:狀態 ;
+    rdfs:comment "疊砌中" .
+
+heri:窯內 crm:P130_shows_features_of heri:缺氧 ;
+    rdfs:comment "環境條件" .
+
+heri:窯燒 crm:P130_shows_features_of heri:發達 ;
+    rdfs:comment "材料製程" .
+
+<http://taiwan_heritage.org/resource/笑瓦（chhiò-hiā）> crm:P130_shows_features_of heri:壓斷 ;
+    crm:P2_has_type heri:平直 ;
+    rdfs:comment "物理特性" .
+
+heri:第三回合 crm:P130_shows_features_of heri:搗實 ;
+    rdfs:comment "工序" .
+
+heri:第四回合 crm:P130_shows_features_of heri:搗實 ;
+    rdfs:comment "工序" .
+
+heri:筒板瓦產品 crm:P130_shows_features_of heri:釉面,
+        heri:釉面厚度,
+        heri:釉面限制 ;
+    rdfs:comment "1-2公分",
+        "兩端側面",
+        "材質處理" .
+
+heri:筒瓦 crm:P130_shows_features_of heri:半圓桶形,
+        heri:厚度,
+        heri:寬度,
+        <http://taiwan_heritage.org/resource/瑞珠（sūi-chu）>,
+        heri:長度 ;
+    rdfs:comment "外觀特徵",
+        "物理特徵（0.9-1.5公分）",
+        "物理特徵（10-13公分）",
+        "物理特徵（21-24公分）",
+        "結構配件" .
+
+heri:篩網 crm:P130_shows_features_of heri:混合物,
+        heri:熟灰,
+        heri:篩除 ;
+    rdfs:comment "不需要部分",
+        "控制粒徑",
+        "過濾雜質" .
+
+heri:篩選 crm:P130_shows_features_of heri:粒徑較小 ;
+    rdfs:comment "篩選結果" .
+
+heri:粗面 crm:P130_shows_features_of heri:表面 ;
+    rdfs:comment "不規則高低" .
+
+heri:糯米漿 crm:P130_shows_features_of heri:填充空隙,
+        heri:添加劑,
+        heri:硬化,
+        heri:稠度,
+        heri:速凝劑 ;
+    rdfs:comment "功能比較",
+        "功能行為",
+        "材料分類",
+        "物理特徵",
+        "狀態變化（動作拆分）" .
+
+heri:糯米灰 crm:P130_shows_features_of heri:120克 ;
+    rdfs:comment "重量單位：克" .
+
+heri:糯米粉 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土,
+        heri:夯土配比 .
+
+heri:紋路 crm:P130_shows_features_of heri:貼合度 ;
+    rdfs:comment "功能效果" .
+
+heri:紗布 crm:P130_shows_features_of heri:不可呈乾燥狀,
+        heri:沾水,
+        heri:濕度 ;
+    rdfs:comment "保存狀態",
+        "保存要求",
+        "狀態" .
+
+heri:紮綁 crm:P130_shows_features_of heri:燕尾骨架 ;
+    rdfs:comment "物理結構" .
+
+heri:細線 crm:P130_shows_features_of heri:垂直方向,
+        heri:鉛製圓錐狀 ;
+    rdfs:comment "物理構造",
+        "空間方向" .
+
+heri:組合 crm:P130_shows_features_of heri:石材 ;
+    rdfs:comment "物理特徵" .
+
+heri:維持 crm:P130_shows_features_of heri:五尺仔 ;
+    rdfs:comment "註解：行為實體" .
+
+heri:線繩 crm:P130_shows_features_of heri:可拉伸 ;
+    rdfs:comment "物理特徵" .
+
+heri:膠結漿 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:鋪設瓦片 .
+
+heri:膠結漿體 crm:P130_shows_features_of heri:塗佈 ;
+    rdfs:comment "動作" .
+
+heri:膠體物質 crm:P130_shows_features_of heri:無定形礦物,
+        heri:結晶性層狀矽酸鹽礦物,
+        heri:鐵鋁氧化物 ;
+    rdfs:comment "物質分類" .
+
+heri:臺中霧峰林家土墼 crm:P130_shows_features_of heri:20%,
+        heri:27%,
+        heri:53% ;
+    rdfs:comment "材料成分" .
+
+heri:臺北保安宮 crm:P2_has_type heri:磚牆厚度 .
+
+heri:臺南市市定古蹟 crm:P130_shows_features_of heri:新營太子宮修復工程 ;
+    rdfs:comment "實例" .
+
+heri:臺灣土水司阜 crm:P130_shows_features_of heri:日式土水作,
+        heri:水泥 ;
+    rdfs:comment "材料使用",
+        "漢式傳統土水作" .
+
+heri:臺灣廠商 crm:P130_shows_features_of heri:面磚 ;
+    rdfs:comment "古蹟修復材料" .
+
+heri:臺灣煉瓦株式會社 crm:P130_shows_features_of heri:標準紅磚,
+        heri:經營製磚 ;
+    rdfs:comment "生產成果",
+        "組織行為" .
+
+heri:臺灣白灰 crm:P130_shows_features_of heri:來源 ;
+    rdfs:comment "物質分類" .
+
+<http://taiwan_heritage.org/resource/舀灰、塗抹、修飾> crm:P130_shows_features_of heri:工具類 ;
+    rdfs:comment "註解：工具分類" .
+
+heri:苏清良 crm:P130_shows_features_of heri:盛灰 ;
+    rdfs:comment "用途" .
+
+heri:莊水盛司阜 crm:P130_shows_features_of heri:灰匙 ;
+    rdfs:comment "人物" .
+
+heri:蘇清良 crm:P130_shows_features_of heri:早期 ;
+    rdfs:comment "時間" .
+
+heri:蚵殼 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土 ;
+    crm:P130_shows_features_of heri:1桶 ;
+    rdfs:comment "重量單位：公斤（3.8公斤）" .
+
+<http://taiwan_heritage.org/resource/蚵殼1_桶（3.8_公斤）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:夯土配比 .
+
+heri:蚵殼灰 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土 .
+
+heri:蚵灰 crm:P130_shows_features_of heri:1.5桶 ;
+    rdfs:comment "重量單位：公斤（4.6公斤）" .
+
+<http://taiwan_heritage.org/resource/蚵灰1.5_桶（4.6_公斤）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:夯土配比 .
+
+heri:表面材料 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:砌體材 ;
+    crm:P130_shows_features_of heri:屋面瓦,
+        heri:鋪面,
+        heri:面磚 ;
+    rdfs:comment "材料類型" .
+
+heri:裁切技術 crm:P130_shows_features_of heri:石材選擇 ;
+    rdfs:comment "影響因素" .
+
+heri:論述基礎 crm:P130_shows_features_of heri:口述史料,
+        heri:工具保存 ;
+    rdfs:comment "資料類型" .
+
+heri:軟化狀態 crm:P130_shows_features_of heri:黏土 ;
+    rdfs:comment "材料結合" .
+
+heri:較小擠仔 crm:P130_shows_features_of heri:塞入 ;
+    rdfs:comment "孔中" .
+
+heri:轉角抹壁 crm:P130_shows_features_of heri:轉角修飾 ;
+    rdfs:comment "工程需求" .
+
+heri:近代以前 crm:P130_shows_features_of heri:臺灣 ;
+    rdfs:comment "地區" .
+
+heri:運用 crm:P130_shows_features_of heri:使用對象 ;
+    rdfs:comment "施工原則" .
+
+heri:過程 crm:P130_shows_features_of heri:飼灰,
+        heri:養灰 ;
+    rdfs:comment "術語" .
+
+heri:適度加入砂 crm:P130_shows_features_of heri:收縮裂縫 ;
+    rdfs:comment "狀態變化（動作拆分）" .
+
+heri:部份司阜 crm:P130_shows_features_of heri:添加土,
+        heri:添加砂 ;
+    rdfs:comment "材料處理" .
+
+heri:部分司阜 crm:P130_shows_features_of heri:方便 ;
+    rdfs:comment "原因" .
+
+heri:鄞山寺 crm:P130_shows_features_of heri:淡水,
+        heri:雁子磚 ;
+    rdfs:comment "修繕材料",
+        "古蹟名稱" .
+
+<http://taiwan_heritage.org/resource/醣類（黑糖）> a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土 .
+
+heri:釉彩 crm:P130_shows_features_of heri:表面光滑 ;
+    rdfs:comment "物理狀態" .
+
+<http://taiwan_heritage.org/resource/釉彩（行為實體）> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/表面光滑（狀態實體）> ;
+    rdfs:comment "物理變化" .
+
+heri:釉料 crm:P130_shows_features_of heri:吸水比率,
+        heri:色澤,
+        heri:防水性 ;
+    rdfs:comment "功能改善",
+        "外觀效果",
+        "物理效果" .
+
+heri:金寧北山民厝 crm:P130_shows_features_of heri:牆面 ;
+    rdfs:comment "建築部位" .
+
+heri:金屬鋼條 crm:P130_shows_features_of heri:竹篾 ;
+    rdfs:comment "自動提取" .
+
+heri:金門莊水盛 crm:P130_shows_features_of heri:原本鐵件 ;
+    rdfs:comment "修改" .
+
+heri:鈑金剪 crm:P130_shows_features_of heri:裁剪 ;
+    rdfs:comment "工具用途（金屬絲線）" .
+
+<http://taiwan_heritage.org/resource/鈑金剪、鋼絲剪> crm:P130_shows_features_of heri:施作,
+        heri:材質 ;
+    rdfs:comment "中脊",
+        "金屬工具" .
+
+heri:鋤頭 crm:P130_shows_features_of heri:挖起 ;
+    rdfs:comment "行為" .
+
+heri:鋪面磚 crm:P130_shows_features_of heri:地磚,
+        heri:尺二磚,
+        heri:尺磚,
+        heri:標準磚 ;
+    rdfs:comment "產品類別",
+        "磚類型" .
+
+heri:鋼材 crm:P130_shows_features_of heri:堅韌 ;
+    rdfs:comment "物理特徵" .
+
+heri:鋼絲剪 crm:P130_shows_features_of heri:裁剪 ;
+    rdfs:comment "工具用途（中脊施作）" .
+
+heri:鎚仔 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:工具,
+        heri:造型 ;
+    crm:P2_has_type heri:類型 ;
+    crm:P45_consists_of heri:材料 ;
+    rdfs:comment "手工具（註：石虎可能為敲擊工具）",
+        "金門莊西" .
+
+<http://taiwan_heritage.org/resource/鎚仔、石虎> crm:P130_shows_features_of heri:修整,
+        heri:砌石 ;
+    rdfs:comment "工程",
+        "石塊" .
+
+<http://taiwan_heritage.org/resource/鎚仔（thûi-á）> crm:P130_shows_features_of heri:手工具 ;
+    rdfs:comment "工具分類" .
+
+heri:鎚子 crm:P130_shows_features_of heri:修整工具,
+        heri:圖4-58,
+        heri:局部修整,
+        heri:鐵鎚 ;
+    rdfs:comment "功能限制",
+        "文物圖示",
+        "發展演變",
+        "石材形狀",
+        "石材處理" .
+
+heri:鎚頭 crm:P130_shows_features_of heri:容易,
+        heri:形狀,
+        heri:石材,
+        heri:部位 ;
+    rdfs:comment "槌頭",
+        "比較級形容詞",
+        "物理損耗行為",
+        "粗面處理",
+        "雙面平面" .
+
+<http://taiwan_heritage.org/resource/鏨仔（chām-á）> crm:P130_shows_features_of heri:手工具 ;
+    rdfs:comment "工具分類" .
+
+heri:鐵件 crm:P130_shows_features_of heri:固定,
+        heri:鋤頭擠仔 ;
+    rdfs:comment "名稱",
+        "鋤頭與握柄" .
+
+heri:鐵耙子 crm:P130_shows_features_of heri:卡住 ;
+    rdfs:comment "工藝標準" .
+
+heri:鐵製抹刀 crm:P130_shows_features_of heri:底塗 ;
+    rdfs:comment "工序" .
+
+heri:鑽孔 crm:P130_shows_features_of heri:取出,
+        heri:間距 ;
+    crm:P53_has_former_or_current_location heri:劈開處 ;
+    rdfs:comment "工序",
+        "要求" .
+
+heri:長勺 crm:P130_shows_features_of heri:泥勺,
+        heri:送灰土 ;
+    rdfs:comment "工具名稱",
+        "工具用途（泥漿勺/挑土勺）" .
+
+heri:長尺 crm:P130_shows_features_of heri:不平整瓦,
+        heri:手,
+        heri:邊界,
+        heri:邊緣 ;
+    rdfs:comment "動作",
+        "工具功能",
+        "工具操作" .
+
+heri:長形工具 crm:P130_shows_features_of heri:按場司阜,
+        heri:施工品質,
+        heri:瞄準,
+        heri:輔助 ;
+    rdfs:comment "人員角色",
+        "工具功能",
+        "工具用途",
+        "比喻用法" .
+
+heri:關仔嶺枕頭山 crm:P130_shows_features_of heri:氧化鎂含量 ;
+    rdfs:comment "物理特徵（高）" .
+
+heri:關仔嶺特白灰 crm:P130_shows_features_of heri:塑形差,
+        heri:面層抹灰,
+        heri:龜裂 ;
+    rdfs:comment "使用限制",
+        "物理缺陷" .
+
+heri:陳世興宅 crm:P130_shows_features_of heri:承重牆 ;
+    crm:P2_has_type heri:寬度,
+        heri:尺度,
+        heri:長度,
+        heri:高度 ;
+    rdfs:comment "建築部位" .
+
+heri:隙 crm:P130_shows_features_of heri:刷水,
+        heri:撫順,
+        heri:沾水 ;
+    rdfs:comment "物理操作",
+        "維護" .
+
+heri:雲林縣縣定古蹟 crm:P130_shows_features_of heri:砂岩柱礎 ;
+    rdfs:comment "實體證據" .
+
+heri:雷射水準儀 crm:P130_shows_features_of heri:傳統,
+        heri:快速,
+        heri:方便 ;
+    rdfs:comment "特性",
+        "現代趨勢" .
+
+heri:霍夫曼 crm:P130_shows_features_of heri:1856,
+        heri:專利,
+        heri:稱之,
+        heri:窯,
+        heri:設計 ;
+    rdfs:comment "1858年5月27日",
+        "命名方式",
+        "專利前技術革新",
+        "技術創新",
+        "時間節點",
+        "法律權益" .
+
+heri:非釉區域 crm:P130_shows_features_of heri:1-2公分,
+        heri:接縫處 ;
+    rdfs:comment "尺寸規範",
+        "結構功能" .
+
+heri:養灰槽 crm:P130_shows_features_of heri:可用 ;
+    crm:P53_has_former_or_current_location heri:內部 ;
+    rdfs:comment "屬性" .
+
+heri:養灰池 crm:P130_shows_features_of heri:結構 ;
+    rdfs:comment "磚塊" .
+
+heri:高級建築 crm:P130_shows_features_of heri:外牆石腳 ;
+    rdfs:comment "建築部位" .
+
+heri:麻布袋 crm:P130_shows_features_of heri:剁碎 ;
+    rdfs:comment "物理處理" .
+
+<http://taiwan_heritage.org/resource/黏土/高嶺土> crm:P130_shows_features_of heri:磚,
+        heri:陶 ;
+    rdfs:comment "材料轉化" .
+
+heri:黏著強度 crm:P130_shows_features_of heri:海菜漿用量 ;
+    rdfs:comment "統計結果" .
+
+heri:黏附量 crm:P130_shows_features_of heri:少量 ;
+    rdfs:comment "數量" .
+
+heri:黑糖 crm:P130_shows_features_of heri:80克 ;
+    rdfs:comment "重量單位：克" .
+
+heri:黑色塑膠袋 crm:P130_shows_features_of heri:2_包,
+        heri:包數 ;
+    rdfs:comment "測量結果",
+        "計量單位" .
+
+heri:0.5-1.2公分 a crm:E55_Type .
+
+heri:15-25公分 a crm:E55_Type .
+
+heri:1893年 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/《澎湖》> ;
+    rdfs:comment "文獻來源" .
+
+heri:22-26公分 a crm:E55_Type .
+
+heri:90_度直角 crm:P130_shows_features_of heri:地平面 ;
+    rdfs:comment "參考基準" .
+
+<http://taiwan_heritage.org/resource/Ca(OH)₂> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/CO₂>,
+        <http://taiwan_heritage.org/resource/CaCO₃>,
+        <http://taiwan_heritage.org/resource/H₂O>,
+        heri:水 ;
+    rdfs:comment "剩餘水分",
+        "反應物",
+        "固化產物",
+        "水參與" .
+
+heri:CaCO3 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/CO₂>,
+        heri:CaO ;
+    rdfs:comment "氣體釋放",
+        "物理變化" .
+
+heri:nan crm:P130_shows_features_of heri:nan ;
+    rdfs:comment "nan" .
+
+<http://taiwan_heritage.org/resource/《澎湖廳志》> crm:P130_shows_features_of heri:老古石 ;
+    rdfs:comment "文獻名稱" .
+
+heri:一器多用 crm:P130_shows_features_of heri:工具使用 ;
+    rdfs:comment "情境" .
+
+heri:一層 a crm:E57_Material .
+
+heri:丈尺 crm:P130_shows_features_of heri:新竹,
+        heri:目的 ;
+    rdfs:comment "功能",
+        "工具" .
+
+heri:三側邊 a crm:E55_Type .
+
+heri:上方 a crm:E53_Place .
+
+heri:下垂 crm:P130_shows_features_of heri:90_度直角 ;
+    rdfs:comment "空間關係" .
+
+heri:不一 a crm:E55_Type .
+
+heri:不同添加材料 crm:P130_shows_features_of heri:材料性能 ;
+    rdfs:comment "註解：因果關係" .
+
+heri:不平整瓦 crm:P130_shows_features_of heri:瓦片 ;
+    rdfs:comment "物理特徵" .
+
+heri:不鏽鋼 a crm:E22_Human_Made_Object .
+
+heri:不鏽鋼條 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:曲度,
+        heri:鋼絲 ;
+    rdfs:comment "自動提取" .
+
+heri:中首鏝 crm:P130_shows_features_of heri:塗抹牆壁,
+        <http://taiwan_heritage.org/resource/抹刀（buah-to）> ;
+    rdfs:comment "註解：功能",
+        "註解：臺灣稱謂" .
+
+heri:乾濕適中 a crm:E55_Type .
+
+heri:二氧化矽 crm:P130_shows_features_of heri:SiO2 ;
+    rdfs:comment "化學符號" .
+
+heri:交丁疊砌 a crm:E55_Type .
+
+heri:仰合瓦 crm:P130_shows_features_of heri:乾縮,
+        <http://taiwan_heritage.org/resource/仰合瓦、筒板瓦>,
+        heri:厝屋,
+        heri:筒板瓦 ;
+    crm:P2_has_type heri:0.5-1.2公分,
+        heri:15-25公分,
+        heri:22-26公分,
+        heri:彎曲狀 ;
+    rdfs:comment "分類",
+        "屋瓦材料",
+        "建築結構",
+        "瓦類型",
+        "變形" .
+
+heri:低溫燒製磚 a crm:E55_Type .
+
+heri:低處 a crm:E53_Place .
+
+heri:使用對象 crm:P130_shows_features_of heri:拌合程度 ;
+    rdfs:comment "材料調配" .
+
+heri:使用層面 crm:P130_shows_features_of heri:最廣泛 ;
+    rdfs:comment "程度" .
+
+heri:使米糠充分軟化 a crm:E55_Type .
+
+heri:來源 crm:P130_shows_features_of heri:性質 ;
+    rdfs:comment "物理/化學屬性" .
+
+heri:便利性 a crm:E55_Type .
+
+heri:促進熟化 a crm:E55_Type .
+
+heri:儀式 crm:P130_shows_features_of heri:時刻 ;
+    rdfs:comment "事件" .
+
+heri:優點 a crm:E55_Type .
+
+heri:元素 crm:P130_shows_features_of heri:塑形,
+        heri:壓印 ;
+    rdfs:comment "動作" .
+
+heri:元首鏝 crm:P130_shows_features_of heri:灰匙,
+        <http://taiwan_heritage.org/resource/灰匙（hoe-sî）>,
+        heri:疊砌,
+        heri:舀灰 ;
+    rdfs:comment "功能",
+        "名稱",
+        "註解：臺灣稱謂" .
+
+heri:內部 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:孔徑 ;
+    rdfs:comment "物理特徵" .
+
+heri:兩端 crm:P130_shows_features_of heri:定位 ;
+    rdfs:comment "空間操作" .
+
+heri:八角形 crm:P130_shows_features_of heri:六角形,
+        heri:密合,
+        heri:正方形,
+        heri:矩形 ;
+    rdfs:comment "比較對象",
+        "空間限制",
+        "設計需求" .
+
+heri:八里鼻仔頭 crm:P53_has_former_or_current_location heri:觀音山腳 .
+
+heri:内岩石 crm:P130_shows_features_of heri:輝石安山岩 ;
+    rdfs:comment "物質分類" .
+
+heri:分部 crm:P130_shows_features_of heri:灰匙 ;
+    rdfs:comment "工具" .
+
+heri:刮平 a crm:E22_Human_Made_Object .
+
+heri:刻度中央 crm:P130_shows_features_of heri:水平 ;
+    rdfs:comment "結果" .
+
+heri:剁斷 a crm:E22_Human_Made_Object .
+
+heri:劈開處 a crm:E53_Place .
+
+heri:史料 crm:P130_shows_features_of heri:新竹傅明光,
+        heri:李清海,
+        heri:澎湖吳通壽,
+        heri:臺南呂新義,
+        heri:莊水盛,
+        heri:金門莊西勢,
+        heri:高雄蘇清良 ;
+    rdfs:comment "人物" .
+
+heri:商標 crm:P130_shows_features_of heri:一隻眼睛,
+        heri:德國_Carl_Schlieper_家族 ;
+    rdfs:comment "來源",
+        "標誌內容" .
+
+heri:嘉義新港 a crm:E53_Place .
+
+heri:圖案 a crm:E55_Type .
+
+heri:土牆 crm:P130_shows_features_of heri:耐候性差 ;
+    rdfs:comment "材料特性" .
+
+heri:圬工構造 crm:P2_has_type heri:強度 .
+
+heri:圬工構造單元 crm:P130_shows_features_of heri:土墼,
+        heri:疊砌柱子,
+        heri:疊砌牆體,
+        heri:石材,
+        heri:紅磚 ;
+    crm:P2_has_type heri:強度,
+        heri:水密性,
+        heri:體積 ;
+    rdfs:comment "建築功能",
+        "材料類型" .
+
+heri:垂直方向 crm:P130_shows_features_of heri:鉛錘線 ;
+    rdfs:comment "名稱變體" .
+
+heri:基本工具 a crm:E55_Type .
+
+heri:基礎放樣 crm:P103_was_intended_for heri:施工準備 .
+
+heri:塑膠 a crm:E57_Material .
+
+heri:增加交丁 a crm:E55_Type .
+
+heri:壁體疊砌 crm:P103_was_intended_for heri:建築結構 .
+
+heri:壓克力 crm:P130_shows_features_of heri:刀面,
+        heri:過去 ;
+    rdfs:comment "材料" .
+
+heri:壓克力抹刀 a crm:E22_Human_Made_Object .
+
+heri:士林石 crm:P130_shows_features_of heri:淡水石,
+        heri:輝閃安山岩 ;
+    rdfs:comment "物質分類",
+        "石材對比" .
+
+heri:多元性 a crm:E55_Type .
+
+heri:多功能性 a crm:E55_Type .
+
+heri:多樣性 a crm:E55_Type .
+
+heri:大崗山 a crm:E53_Place .
+
+heri:大量建設 crm:P130_shows_features_of heri:引入機械 ;
+    rdfs:comment "因果關係（行為實體：日本商人）" .
+
+heri:大量開採 crm:P130_shows_features_of heri:石雕龍柱 ;
+    rdfs:comment "產物" .
+
+heri:夯土調製 a crm:E55_Type .
+
+heri:孔徑 crm:P130_shows_features_of heri:較大 ;
+    rdfs:comment "物理特徵" .
+
+heri:完成 crm:P130_shows_features_of heri:置放 ;
+    rdfs:comment "行為實體（狀態實體：置放狀態）" .
+
+heri:寫作方便 a crm:E55_Type .
+
+heri:寺廟建築 crm:P130_shows_features_of heri:筒板瓦 ;
+    rdfs:comment "建築構件" .
+
+heri:專利 crm:P130_shows_features_of heri:1858,
+        heri:5月27,
+        heri:霍夫曼窯 ;
+    rdfs:comment "具體日期",
+        "姓名命名慣例",
+        "時間節點" .
+
+heri:對準 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/磚石/瓦片> ;
+    rdfs:comment "目標" .
+
+heri:尺寸 crm:P130_shows_features_of heri:多元 ;
+    rdfs:comment "變異性" .
+
+heri:尺度 a crm:E55_Type .
+
+heri:屋面瓦作 crm:P130_shows_features_of heri:堆灰,
+        heri:抹灰 ;
+    rdfs:comment "功能" .
+
+heri:屋頂 crm:P2_has_type heri:翹脊 .
+
+heri:屋頂瓦作 crm:P130_shows_features_of heri:工具 ;
+    rdfs:comment "專業需求（磚瓦片敲擊/裁切）",
+        "專業需求（金屬絲線裁剪）" .
+
+heri:層狀矽酸鹽礦物 crm:P130_shows_features_of heri:伊來石,
+        heri:蒙特石,
+        heri:高嶺石 ;
+    rdfs:comment "具體實例" .
+
+heri:工具套 crm:P130_shows_features_of heri:墜仔,
+        heri:墨斗,
+        heri:放樣,
+        heri:水平尺,
+        heri:水秤,
+        heri:水線,
+        heri:量測放樣 ;
+    rdfs:comment "工具特性",
+        "工具用途",
+        "組成成員" .
+
+heri:工具用途 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:修飾,
+        heri:其他,
+        heri:切割,
+        heri:塑形,
+        heri:塗抹,
+        heri:敲擊,
+        heri:矯正,
+        heri:裁剪,
+        heri:裝盛,
+        heri:量測 ;
+    rdfs:comment "功能類別" .
+
+heri:工具類型 crm:P130_shows_features_of heri:工項 ;
+    rdfs:comment "關聯" .
+
+heri:平直 a crm:E55_Type .
+
+heri:幾何圖案 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:裝修 ;
+    rdfs:comment "動作" .
+
+heri:廈門 crm:P130_shows_features_of heri:泉州白 ;
+    rdfs:comment "地區產品" .
+
+heri:廢棄木料 crm:P130_shows_features_of heri:握柄 ;
+    rdfs:comment "材料加工" .
+
+heri:廣福宮 crm:P130_shows_features_of heri:壁堵雕刻,
+        heri:柱礎,
+        heri:石砛,
+        heri:鋪面,
+        heri:龍柱 ;
+    rdfs:comment "建築部位" .
+
+heri:建築結構 a crm:E55_Type .
+
+heri:彈射 crm:P130_shows_features_of heri:生成參考線,
+        heri:目標位置 ;
+    rdfs:comment "工程應用",
+        "空間目標" .
+
+heri:彎曲狀 a crm:E55_Type .
+
+heri:懸掛 crm:P130_shows_features_of heri:下垂 ;
+    rdfs:comment "物理變化" .
+
+heri:打石司阜 crm:P130_shows_features_of heri:工項 ;
+    rdfs:comment "工程項目" .
+
+heri:承重構造 a crm:E57_Material .
+
+heri:承重牆 crm:P130_shows_features_of heri:27公分,
+        heri:38公分,
+        heri:8公分 ;
+    rdfs:comment "物理量測" .
+
+heri:抗張 a crm:E22_Human_Made_Object .
+
+heri:拉線量測 crm:P130_shows_features_of heri:放樣 ;
+    rdfs:comment "工序類型" .
+
+heri:拉設 crm:P130_shows_features_of heri:施工精度 ;
+    rdfs:comment "目的" .
+
+heri:拌合材料 a crm:E55_Type .
+
+heri:拔起 a crm:E22_Human_Made_Object .
+
+heri:拖線 crm:P130_shows_features_of heri:抹刀 ;
+    rdfs:comment "工具類別" .
+
+heri:挖開 a crm:E22_Human_Made_Object .
+
+heri:捶打 crm:P130_shows_features_of heri:下降,
+        heri:容易,
+        heri:潑灑,
+        heri:相對容易,
+        heri:翻動 ;
+    rdfs:comment "同時動作",
+        "手工操作",
+        "變化",
+        "障礙程度" .
+
+heri:捶鍊 crm:P130_shows_features_of heri:20分鐘 ;
+    rdfs:comment "時間" .
+
+heri:推搓 crm:P130_shows_features_of heri:來回,
+        heri:完畢 ;
+    rdfs:comment "屬性",
+        "過程" .
+
+heri:提升握裹力 a crm:E55_Type .
+
+heri:提升黏稠度 a crm:E55_Type .
+
+heri:搗擊 a crm:E22_Human_Made_Object .
+
+heri:摃灰 crm:P103_was_intended_for heri:促進熟化,
+        heri:提升黏稠度,
+        heri:減少養灰時間 ;
+    crm:P130_shows_features_of heri:白灰性質 ;
+    rdfs:comment "化學/物理改變（張清忠研究）" .
+
+heri:摩擦 crm:P130_shows_features_of heri:灰土 ;
+    rdfs:comment "狀態實體（因果分解）" .
+
+heri:撫平 crm:P130_shows_features_of heri:壁體面塗 ;
+    rdfs:comment "目標" .
+
+heri:操作 crm:P130_shows_features_of heri:慣用手,
+        heri:抹刀,
+        heri:擺拌,
+        heri:染色繩子,
+        heri:發酵,
+        heri:目標位置 ;
+    rdfs:comment "工具",
+        "步驟",
+        "目的",
+        "行為" .
+
+heri:擺拌 crm:P130_shows_features_of heri:拍打 ;
+    rdfs:comment "後續步驟" .
+
+heri:敲打 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:粉狀 ;
+    rdfs:comment "狀態變化（註：行為實體：敲打；狀態實體：粉狀）" .
+
+heri:斗仔牆 crm:P130_shows_features_of heri:灰劍,
+        heri:耐候性差 ;
+    rdfs:comment "材料特性",
+        "結構" .
+
+heri:斗子 a crm:E22_Human_Made_Object .
+
+heri:新營太子宮修復工程 crm:P130_shows_features_of heri:施作經驗 ;
+    rdfs:comment "經驗來源" .
+
+heri:施作經驗 crm:P130_shows_features_of heri:壁土發黑問題,
+        heri:壓克力,
+        heri:鋼製抹刀 ;
+    rdfs:comment "材料替代",
+        "行為",
+        "解決目標" .
+
+heri:施作者 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:慣用手,
+        heri:非慣用手 ;
+    crm:P53_has_former_or_current_location heri:鷹架 ;
+    rdfs:comment "拿持土捧",
+        "持鏝刀" .
+
+heri:施工 crm:P130_shows_features_of heri:需要 ;
+    rdfs:comment "原因關係" .
+
+heri:施工準備 a crm:E55_Type .
+
+heri:日式土水作 crm:P130_shows_features_of heri:水泥 ;
+    rdfs:comment "添加材料" .
+
+heri:日治時期 crm:P130_shows_features_of heri:標準磚,
+        heri:標準紅磚,
+        heri:水泥 ;
+    rdfs:comment "材料應用",
+        "歷史時期",
+        "歷史變遷" .
+
+heri:早期 crm:P130_shows_features_of heri:海綿抹刀 ;
+    rdfs:comment "工具缺失" .
+
+heri:時 crm:P130_shows_features_of heri:祭祀工具 ;
+    rdfs:comment "註解：時之必要性" .
+
+heri:木 a crm:E22_Human_Made_Object,
+        crm:E57_Material ;
+    crm:P45_consists_of heri:木 .
+
+heri:木杵 crm:P130_shows_features_of heri:15分鐘,
+        heri:60公分,
+        heri:捶打,
+        heri:每秒1次,
+        heri:難以拔起,
+        heri:黏灰 ;
+    rdfs:comment "動作",
+        "時間",
+        "物理阻力",
+        "狀態",
+        "頻率",
+        "高度" .
+
+heri:木板 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:曲度 ;
+    rdfs:comment "自動提取" .
+
+heri:東南亞分部 a crm:E53_Place .
+
+heri:東部 a crm:E53_Place .
+
+heri:林園 a crm:E53_Place .
+
+heri:染色 crm:P130_shows_features_of heri:吸附墨水,
+        heri:墨汁,
+        heri:繩子 ;
+    rdfs:comment "材料",
+        "物理對象",
+        "狀態變化" .
+
+heri:柱礎 crm:P130_shows_features_of heri:一體成型 ;
+    rdfs:comment "結構特徵（註：轉化自“與柱礎下的磉石為一體成型”）" .
+
+<http://taiwan_heritage.org/resource/棉線/尼龍線> a crm:E57_Material .
+
+heri:槓桿原理 crm:P130_shows_features_of heri:石磉 ;
+    rdfs:comment "動作" .
+
+heri:正八角磚 a crm:E55_Type .
+
+heri:正六角磚 a crm:E55_Type .
+
+heri:正方形磚 a crm:E55_Type .
+
+heri:氧 crm:P130_shows_features_of heri:燃燒 ;
+    rdfs:comment "能量來源" .
+
+heri:氧化亞鐵 crm:P130_shows_features_of heri:黑色 ;
+    rdfs:comment "顏色結果" .
+
+heri:氧化鎂 crm:P130_shows_features_of heri:高 ;
+    rdfs:comment "數值（相對）" .
+
+heri:氧化鎂含量 crm:P130_shows_features_of heri:性質 ;
+    rdfs:comment "化學影響（與貝類灰相近）" .
+
+heri:水塘 crm:P130_shows_features_of heri:水,
+        heri:米糠 ;
+    rdfs:comment "操作動作",
+        "材料添加" .
+
+heri:沉列仔 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/鏝身（凸面）> ;
+    rdfs:comment "專業術語" .
+
+heri:泉州白石磉 a crm:E22_Human_Made_Object .
+
+heri:泡水 crm:P130_shows_features_of heri:拌合 ;
+    rdfs:comment "功能",
+        "工藝效果" .
+
+heri:浮列仔 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/鏝身（內凹）> ;
+    rdfs:comment "專業術語" .
+
+heri:海綿抹刀 crm:P130_shows_features_of heri:不刮傷,
+        heri:大面積,
+        heri:工具,
+        heri:快速,
+        heri:抹刀 ;
+    rdfs:comment "作業效率",
+        "作業範圍",
+        "工具",
+        "工具類別",
+        "物理特徵" .
+
+heri:添加劑 crm:P130_shows_features_of heri:反覆,
+        heri:抗壓強度,
+        heri:舂壓,
+        heri:防水性,
+        heri:防水性超過一般較低強度混凝土 ;
+    rdfs:comment "修飾詞",
+        "物理特徵",
+        "狀態實體（拆分為：添加劑",
+        "行為" .
+
+heri:添加材料 crm:P130_shows_features_of heri:不同性能,
+        heri:性能,
+        heri:特性,
+        heri:緩凝材,
+        heri:纖維材 ;
+    rdfs:comment "材料屬性",
+        "材料特性",
+        "註解：分類依據",
+        "註解：類型（1）",
+        "註解：類型（2）" .
+
+heri:減少養灰時間 a crm:E55_Type .
+
+heri:湯匙 crm:P130_shows_features_of heri:理想,
+        heri:調整 ;
+    rdfs:comment "物理特徵" .
+
+heri:溶解性有機物質 crm:P130_shows_features_of heri:腐質酸 ;
+    rdfs:comment "具體實例" .
+
+heri:漚土 crm:P130_shows_features_of heri:時間,
+        heri:米糠,
+        heri:黏土築堤 ;
+    rdfs:comment "時間範圍",
+        "準備工具",
+        "狀態變化" .
+
+heri:漚灰 crm:P130_shows_features_of heri:時間 ;
+    rdfs:comment "1 年",
+        "2 個月" .
+
+heri:潑灑 crm:P130_shows_features_of heri:熟石灰,
+        heri:適量 ;
+    rdfs:comment "尺寸",
+        "添加物" .
+
+heri:灰泥膏 a crm:E57_Material ;
+    crm:P130_shows_features_of heri:水泥 ;
+    rdfs:comment "材料混合" .
+
+heri:灰漿面 crm:P130_shows_features_of heri:10公分,
+        heri:5公分,
+        heri:高度 ;
+    rdfs:comment "5-10 公分",
+        "數值（上限）",
+        "數值（下限）" .
+
+heri:灰盤 crm:P130_shows_features_of heri:托泥板 ;
+    rdfs:comment "同義詞（hoe-pôaⁿ）" .
+
+heri:灰色 a crm:E55_Type .
+
+heri:無柄 a crm:E22_Human_Made_Object .
+
+heri:焿仔藔產硬石 crm:P130_shows_features_of heri:英閃安山岩 ;
+    rdfs:comment "物質分類" .
+
+heri:煉瓦 crm:P130_shows_features_of heri:大量建設 ;
+    rdfs:comment "社會背景" .
+
+heri:熟土 crm:P2_has_type heri:乾濕適中 .
+
+heri:熟石灰粉 crm:P130_shows_features_of heri:水份 ;
+    rdfs:comment "功能" .
+
+heri:燒製品質 crm:P2_has_type heri:低溫燒製磚,
+        heri:油面,
+        heri:高溫燒製磚 .
+
+heri:牆面 crm:P130_shows_features_of heri:生甓 ;
+    crm:P2_has_type heri:圖案,
+        heri:幾何圖案,
+        heri:灰色 ;
+    rdfs:comment "材料類型" .
+
+heri:牆面厚度 a crm:E55_Type .
+
+heri:牡蠣殼 crm:P53_has_former_or_current_location heri:西部沿海 .
+
+heri:珊瑚礁岩 crm:P130_shows_features_of heri:coral_stone,
+        <http://taiwan_heritage.org/resource/《澎湖廳志》>,
+        heri:切割,
+        heri:古老石,
+        heri:比較小,
+        heri:用於圓光門,
+        heri:用於歸帶走磚,
+        heri:用於清水紅磚,
+        heri:用於牆角,
+        heri:用於疊砌,
+        heri:被稱,
+        heri:西文,
+        heri:較密 ;
+    rdfs:comment "sóa",
+        "sóa 薑",
+        "另一音譯",
+        "外文名稱",
+        "建築用途",
+        "文獻記載",
+        "物理特徵",
+        "行為",
+        "音譯" .
+
+heri:現場 a crm:E53_Place .
+
+<http://taiwan_heritage.org/resource/瑞珠/瑞廉> a crm:E22_Human_Made_Object .
+
+heri:瓦刀 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:代表,
+        heri:傳統瓦作,
+        heri:切瓦片,
+        heri:土水司阜,
+        <http://taiwan_heritage.org/resource/寬/厚>,
+        heri:工具,
+        heri:微調移動石磉,
+        heri:折斷瓦片,
+        heri:敲破磚瓦,
+        heri:槓桿原理,
+        heri:特殊,
+        heri:紅帶,
+        heri:細,
+        heri:缺嘴將軍,
+        heri:裝飾 ;
+    crm:P2_has_type heri:三側邊,
+        heri:多功能性 ;
+    rdfs:comment "使用者",
+        "功能",
+        "動作",
+        "原理",
+        "工具所有者",
+        "文化/民間稱謂",
+        "物理特徵",
+        "特性",
+        "裝飾",
+        "角色",
+        "類別" .
+
+heri:生成參考線 crm:P130_shows_features_of heri:土水司阜 ;
+    rdfs:comment "工程項目" .
+
+heri:生灰 crm:P130_shows_features_of heri:地面,
+        <http://taiwan_heritage.org/resource/氫氧化鈣（Ca（OH）₂）>,
+        heri:水,
+        heri:熟化,
+        heri:熟灰,
+        heri:養護 ;
+    rdfs:comment "化學反應",
+        "化學過程",
+        "後處理",
+        "材料準備",
+        "物質添加" .
+
+<http://taiwan_heritage.org/resource/生灰（chheⁿ-hoe）> crm:P130_shows_features_of heri:生石灰 ;
+    rdfs:comment "專業名稱" .
+
+heri:發酵 crm:P130_shows_features_of heri:熟土 ;
+    rdfs:comment "產物" .
+
+heri:白灰 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:殼類灰,
+        heri:石灰石,
+        heri:鈣化物 ;
+    rdfs:comment "化學分類",
+        "材料來源" .
+
+<http://taiwan_heritage.org/resource/眼睛牌（Eye_Brand）公司> crm:P53_has_former_or_current_location heri:東南亞分部 .
+
+heri:石板 crm:P130_shows_features_of heri:不需裁切,
+        heri:方便取得 ;
+    rdfs:comment "加工需求",
+        "取得性" .
+
+heri:石灰 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:三合土 ;
+    crm:P130_shows_features_of heri:均勻,
+        heri:抹壁,
+        heri:比例,
+        heri:灰,
+        heri:疊砌,
+        <http://taiwan_heritage.org/resource/白灰（pe̍h-hoe）>,
+        heri:重要材料,
+        heri:鋪瓦,
+        heri:雕塑 ;
+    rdfs:comment "10 公斤",
+        "俗稱",
+        "應用場景",
+        "材料分類",
+        "狀態" .
+
+heri:石磉 crm:P130_shows_features_of heri:位置 ;
+    rdfs:comment "行為" .
+
+heri:石臼 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:木桶,
+        heri:灰體,
+        heri:熟石灰粉,
+        heri:石臼,
+        heri:鐵桶 ;
+    crm:P45_consists_of heri:石 ;
+    rdfs:comment "原料",
+        "工具",
+        "材質選擇",
+        "添加物" .
+
+heri:石虎 crm:P130_shows_features_of heri:Σ形,
+        heri:修整工具,
+        heri:如鎚子,
+        heri:局部修整,
+        heri:敲擊,
+        heri:柄,
+        heri:槌子,
+        heri:石虎 ;
+    rdfs:comment "使用方式",
+        "功能限制",
+        "專有名稱（閩南語）",
+        "工具用途（註：與鎚仔相關）",
+        "石材形狀",
+        "石材處理",
+        "結構形狀",
+        "結構設計",
+        "類似功能" .
+
+heri:砌體磚 a crm:E22_Human_Made_Object,
+        crm:E57_Material ;
+    crm:P127_has_broader_term heri:承重構造 ;
+    crm:P130_shows_features_of heri:承重構造的砌塊,
+        heri:斗子砌,
+        heri:牆體的清水磚,
+        heri:鋪面,
+        heri:面磚 ;
+    rdfs:comment "實例",
+        "材料兼容性",
+        "結構功能" .
+
+heri:砌體磚種類 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:燒製品質 ;
+    crm:P2_has_type heri:多樣性 ;
+    rdfs:comment "分類標準" .
+
+heri:砌體縫間 a crm:E53_Place .
+
+heri:磚尺寸 a crm:E55_Type .
+
+heri:磚牆厚度 a crm:E55_Type .
+
+heri:礦物性灰 crm:P130_shows_features_of heri:白雲石,
+        heri:石灰石,
+        heri:硓𥑮石 ;
+    rdfs:comment "物質分類",
+        "礦物來源" .
+
+heri:竹篾 crm:P130_shows_features_of heri:屋頂,
+        heri:燕尾 ;
+    rdfs:comment "自動提取" .
+
+heri:第一項 crm:P130_shows_features_of heri:傳統表現,
+        heri:土水司阜 ;
+    rdfs:comment "工程領域",
+        "文化特徵" .
+
+heri:米糠土 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:編仔壁,
+        heri:黏土 ;
+    rdfs:comment "施工用途",
+        "材料組成" .
+
+heri:結晶性 crm:P130_shows_features_of heri:層狀矽酸鹽礦物 ;
+    rdfs:comment "具體實例" .
+
+heri:結晶性層狀矽酸鹽礦物 crm:P130_shows_features_of heri:伊來石,
+        heri:蒙特石,
+        heri:高嶺石 ;
+    rdfs:comment "礦物名稱" .
+
+heri:維持整潔 a crm:E55_Type .
+
+heri:緩凝作用 crm:P130_shows_features_of heri:晚期強度 ;
+    rdfs:comment "狀態變化（動作拆分）" .
+
+heri:緩凝劑 a crm:E55_Type .
+
+heri:縫間 a crm:E53_Place .
+
+heri:繁多 a crm:E55_Type .
+
+heri:繩子 crm:P130_shows_features_of heri:拉線 ;
+    rdfs:comment "行為" .
+
+heri:纖維 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:細度,
+        heri:較細,
+        heri:麻絨 ;
+    rdfs:comment "產物",
+        "篩選標準",
+        "選擇標準" .
+
+heri:缺嘴 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/兔唇/唇裂> ;
+    rdfs:comment "医学/生理特徵" .
+
+heri:缺嘴將軍 crm:P130_shows_features_of heri:缺嘴 ;
+    rdfs:comment "形象來源" .
+
+heri:缺氧 crm:P130_shows_features_of heri:三氧化二鐵 ;
+    rdfs:comment "物質變化" .
+
+heri:翹脊 a crm:E55_Type .
+
+heri:能力 crm:P130_shows_features_of heri:製作,
+        heri:設計 ;
+    rdfs:comment "動作" .
+
+heri:脆弱 a crm:E55_Type .
+
+heri:脊作司阜 a crm:E39_Actor .
+
+heri:膠體狀態 crm:P130_shows_features_of heri:有機無機複合膠體,
+        heri:有機膠體,
+        heri:無機膠體 ;
+    rdfs:comment "分類" .
+
+heri:自行開發 a crm:E22_Human_Made_Object .
+
+heri:臺南安平 a crm:E53_Place .
+
+heri:臺灣 crm:P130_shows_features_of heri:卵石,
+        heri:大塊石材,
+        heri:安山岩,
+        heri:玄武岩,
+        heri:花崗岩,
+        heri:進口 ;
+    rdfs:comment "取得方式",
+        "地質資源",
+        "建材需求",
+        "替代材料" .
+
+heri:花崗片麻岩 crm:P130_shows_features_of heri:泉州白,
+        heri:灰黃色,
+        heri:石英,
+        heri:花崗岩變質岩,
+        heri:金門,
+        heri:長石,
+        heri:黑色細粒,
+        heri:黑雲母 ;
+    rdfs:comment "地區",
+        "外觀差異",
+        "外觀特徵",
+        "比較對象",
+        "礦物成分",
+        "變質岩類型" .
+
+heri:莊水盛 crm:P130_shows_features_of heri:灰匙來源 ;
+    rdfs:comment "陳述" .
+
+heri:藤澤國太郎 crm:P130_shows_features_of heri:文獻,
+        heri:旌表 ;
+    rdfs:comment "1931年",
+        "使用實例" .
+
+heri:虹吸 crm:P130_shows_features_of heri:水平 ;
+    rdfs:comment "功能" .
+
+heri:虹吸原理 crm:P130_shows_features_of heri:水平 ;
+    rdfs:comment "空間方向" .
+
+heri:蛋殼 crm:P130_shows_features_of heri:光滑,
+        heri:堅硬 ;
+    rdfs:comment "物理特徵" .
+
+heri:表層 a crm:E55_Type .
+
+heri:裝飾 crm:P130_shows_features_of heri:適度 ;
+    rdfs:comment "程度" .
+
+heri:西文 crm:P130_shows_features_of heri:coral_stone ;
+    rdfs:comment "外文名稱" .
+
+heri:西部沿海 a crm:E53_Place .
+
+heri:觀音山腳 a crm:E53_Place .
+
+heri:輝綠岩 crm:P130_shows_features_of heri:不易,
+        heri:優於,
+        heri:壁堵,
+        heri:火成岩,
+        heri:石柱,
+        heri:石獅雕刻,
+        heri:碎料,
+        heri:綠泥石,
+        heri:耐候性能,
+        heri:輝石,
+        heri:進口,
+        heri:鋪面,
+        heri:長石,
+        heri:青斗石,
+        heri:青草石,
+        heri:高,
+        heri:高級建築材料 ;
+    rdfs:comment "俗稱",
+        "優越性",
+        "取得方式",
+        "建築應用",
+        "時空條件",
+        "材料處理",
+        "環境限制",
+        "用途分類",
+        "礦物分類",
+        "礦物成分",
+        "耐候性能",
+        "藝術應用" .
+
+heri:輪鼓車仔 crm:P130_shows_features_of heri:單輪手推車 ;
+    rdfs:comment "同義詞" .
+
+heri:通水 crm:P130_shows_features_of heri:虹吸原理 ;
+    rdfs:comment "物理現象" .
+
+heri:過去 crm:P130_shows_features_of heri:沒有 ;
+    rdfs:comment "材料限制" .
+
+heri:避免發黑 a crm:E55_Type .
+
+heri:避邪 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:紅帶 ;
+    rdfs:comment "信仰" .
+
+heri:釉面限制 crm:P103_was_intended_for heri:提升握裹力 .
+
+heri:金門 crm:P130_shows_features_of heri:石材,
+        heri:紅料 ;
+    rdfs:comment "地方術語",
+        "材質描述" .
+
+heri:金門莊西勢司阜 a crm:E39_Actor .
+
+heri:鉛製圓錐狀 crm:P130_shows_features_of heri:垂直定向 ;
+    rdfs:comment "工具功能" .
+
+heri:鉛錘 crm:P130_shows_features_of heri:懸掛 ;
+    rdfs:comment "物理狀態" .
+
+heri:鋪設 crm:P130_shows_features_of heri:瓦片 ;
+    rdfs:comment "材料" .
+
+heri:鋪設瓦片 a crm:E57_Material ;
+    crm:P130_shows_features_of heri:敲擊 ;
+    rdfs:comment "作業動作" .
+
+heri:鋼水 crm:P130_shows_features_of heri:良好 ;
+    rdfs:comment "質量評價" .
+
+heri:鋼片 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:堅硬,
+        heri:材質,
+        heri:磚塊 ;
+    rdfs:comment "材料",
+        "測量結果",
+        "物理特徵" .
+
+heri:鋼製抹刀 crm:P130_shows_features_of heri:上塗,
+        heri:中塗 ;
+    rdfs:comment "工序" .
+
+heri:鎢鋼鎚 crm:P130_shows_features_of heri:甚重 ;
+    crm:P2_has_type heri:重量,
+        heri:高硬度 ;
+    rdfs:comment "比較級形容詞" .
+
+heri:鏝刀中央 a crm:E53_Place .
+
+heri:鏝身尾端 a crm:E53_Place .
+
+heri:鏟子 crm:P130_shows_features_of heri:挖掘 ;
+    rdfs:comment "水坑" .
+
+heri:鐵鎚 crm:P130_shows_features_of heri:不沉重,
+        heri:包覆,
+        heri:圖4-59,
+        heri:湯匙,
+        heri:较一般,
+        heri:鎢鋼 ;
+    rdfs:comment "加工行為",
+        "文物圖示",
+        "比較級形容詞",
+        "物理特徵",
+        "結構設計",
+        "部位限定" .
+
+heri:長六角磚 a crm:E55_Type .
+
+heri:長方形磚 a crm:E55_Type .
+
+heri:閱讀方便 a crm:E55_Type .
+
+heri:關仔嶺 a crm:E53_Place .
+
+heri:雞蛋清 crm:P130_shows_features_of heri:抗壓強度,
+        heri:防水性 ;
+    rdfs:comment "功能" .
+
+heri:順平 a crm:E22_Human_Made_Object .
+
+heri:顏色 crm:P130_shows_features_of heri:紅色 ;
+    rdfs:comment "視覺特徵" .
+
+heri:類別 a crm:E55_Type .
+
+heri:類型 a crm:E55_Type .
+
+heri:顯色力 a crm:E55_Type .
+
+heri:體積 a crm:E55_Type .
+
+heri:高嶺土 a crm:E22_Human_Made_Object .
+
+heri:高溫煅燒 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/氧化鈣（CaO）> ;
+    rdfs:comment "化學產物" .
+
+heri:高溫燒製磚 a crm:E55_Type .
+
+heri:高硬度 a crm:E55_Type .
+
+heri:高處 crm:P130_shows_features_of heri:高度 ;
+    rdfs:comment "註解：物理特徵" .
+
+heri:高雄呂新義司阜 a crm:E39_Actor ;
+    crm:P130_shows_features_of heri:灰壁塗抹 ;
+    rdfs:comment "工藝經驗" .
+
+heri:高雄旗津 a crm:E53_Place .
+
+heri:鷹架 a crm:E53_Place ;
+    crm:P53_has_former_or_current_location heri:施作者 .
+
+heri:鹼性長石 crm:P130_shows_features_of heri:鐵鎂礦物 ;
+    rdfs:comment "礦物成分" .
+
+heri:麻糬灰 crm:P130_shows_features_of heri:抹壁 ;
+    rdfs:comment "功能" .
+
+heri:麻絨灰 a crm:E57_Material ;
+    crm:P130_shows_features_of heri:水泥 ;
+    rdfs:comment "材料混合" .
+
+heri:黏土築堤 crm:P130_shows_features_of heri:水塘 ;
+    rdfs:comment "結構設計" .
+
+heri:黑色條紋 crm:P130_shows_features_of heri:還原反應,
+        heri:還原燒 ;
+    rdfs:comment "工藝方法",
+        "科學原理" .
+
+<http://taiwan_heritage.org/resource/CaCO₃> crm:P130_shows_features_of heri:消石灰 ;
+    rdfs:comment "產物（註：消石灰為Ca(OH)₂，但文本直接標註為CaCO₃，可能為筆誤或簡化）" .
+
+heri:一直線 crm:P130_shows_features_of heri:整排瓦 ;
+    rdfs:comment "物理特徵" .
+
+heri:三氧化二鐵 crm:P130_shows_features_of heri:氧,
+        heri:氧化亞鐵,
+        heri:磚塊,
+        heri:紅色,
+        heri:顏色,
+        heri:顯色 ;
+    rdfs:comment "功能",
+        "化學反應",
+        "化學成分",
+        "化學變化",
+        "物理屬性",
+        "顏色結果" .
+
+heri:乾縮 crm:P130_shows_features_of heri:尺寸變化,
+        heri:市場供應,
+        heri:磚塊尺寸 ;
+    rdfs:comment "商業實體",
+        "物理屬性",
+        "物理特徵" .
+
+heri:二氧化碳 crm:P130_shows_features_of heri:碳酸化 ;
+    rdfs:comment "狀態（化學反應）" .
+
+heri:傳統 crm:P130_shows_features_of heri:垂直,
+        heri:水平 ;
+    rdfs:comment "方法" .
+
+heri:元首 crm:P130_shows_features_of heri:鏝身 ;
+    crm:P53_has_former_or_current_location heri:鏝身尾端 ;
+    rdfs:comment "連接關係" .
+
+heri:凸面 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:内凹灰縫,
+        heri:外凸 ;
+    rdfs:comment "功能",
+        "形狀" .
+
+heri:凹面 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:內凹,
+        heri:外凸灰縫 ;
+    rdfs:comment "功能",
+        "形狀" .
+
+heri:剪裁 crm:P130_shows_features_of heri:材料 ;
+    rdfs:comment "目標" .
+
+heri:卵石 crm:P130_shows_features_of heri:一樓樓板,
+        heri:不需裁切,
+        heri:二氧化矽,
+        heri:圓滑表面,
+        heri:土牆,
+        heri:山洪沖擊,
+        heri:斗仔牆,
+        heri:方便取得,
+        heri:河谷,
+        heri:流水搬運,
+        heri:疊砌石腳,
+        heri:稜角磨去,
+        heri:鋪設基礎 ;
+    crm:P53_has_former_or_current_location heri:河谷 ;
+    rdfs:comment "加工需求",
+        "化學成分",
+        "取得性",
+        "地質來源",
+        "建築功能",
+        "建築結構",
+        "物理特徵",
+        "自然過程" .
+
+heri:土 crm:P103_was_intended_for heri:使米糠充分軟化 ;
+    crm:P130_shows_features_of heri:土水材料,
+        heri:灰,
+        heri:無機膠體,
+        heri:黏土 ;
+    crm:P2_has_type heri:膠結材,
+        heri:膠體 ;
+    rdfs:comment "傳統土水司阜必備知識",
+        "材料分類",
+        "材料選擇",
+        "材料類別對比",
+        "術語限定" .
+
+heri:土水材料 a crm:E22_Human_Made_Object ;
+    crm:P2_has_type heri:砌體材,
+        heri:膠結材 .
+
+heri:地磚 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:八角形,
+        heri:八角形面磚,
+        heri:六角形,
+        heri:六角形面磚,
+        heri:長六角,
+        heri:長六角形面磚 ;
+    crm:P2_has_type heri:貼合度 ;
+    rdfs:comment "幾何特徵",
+        "形狀特徵" .
+
+heri:地面 crm:P130_shows_features_of heri:挖掘 ;
+    rdfs:comment "水坑" .
+
+heri:壁土 crm:P130_shows_features_of heri:不易龜裂,
+        heri:完成,
+        heri:發黑 ;
+    rdfs:comment "感官結果",
+        "物理特徵",
+        "狀態",
+        "視覺特徵" .
+
+heri:壓印 crm:P130_shows_features_of heri:合用 ;
+    rdfs:comment "目的" .
+
+heri:安山岩 crm:P130_shows_features_of heri:1931年,
+        heri:不易,
+        heri:公共建築,
+        heri:大量開採,
+        heri:漢式傳統建築,
+        heri:石雕龍柱,
+        heri:耐候性能,
+        heri:藤澤國太郎,
+        heri:觀音山石,
+        heri:質地,
+        heri:高 ;
+    crm:P53_has_former_or_current_location heri:臺灣北部 ;
+    rdfs:comment "主流材料",
+        "地方名稱",
+        "文獻作者",
+        "時空條件",
+        "材料用途",
+        "歷史背景",
+        "歷史資料",
+        "物理特徵",
+        "環境限制" .
+
+heri:尺 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:抹灰,
+        heri:直線 ;
+    crm:P53_has_former_or_current_location heri:轉角處 ;
+    rdfs:comment "工具功能" .
+
+heri:屋瓦 crm:P130_shows_features_of heri:金門地區 ;
+    crm:P53_has_former_or_current_location heri:五尺仔 ;
+    rdfs:comment "地區" .
+
+heri:平整度 crm:P130_shows_features_of heri:砌體 ;
+    rdfs:comment "物理特徵" .
+
+heri:彎折 a crm:E22_Human_Made_Object .
+
+heri:性質 crm:P130_shows_features_of heri:氧化鎂 ;
+    rdfs:comment "化學成分" .
+
+heri:打碎 a crm:E22_Human_Made_Object .
+
+heri:抹壁 crm:P130_shows_features_of heri:工作性,
+        heri:灰 ;
+    rdfs:comment "影響結果",
+        "用途" .
+
+heri:拉線 crm:P130_shows_features_of heri:兩端,
+        heri:量測 ;
+    rdfs:comment "動作",
+        "物理部位" .
+
+heri:挖起 a crm:E22_Human_Made_Object .
+
+heri:握柄 crm:P130_shows_features_of heri:元首 ;
+    rdfs:comment "註解：結構" .
+
+heri:搗實 crm:P130_shows_features_of heri:10分鐘,
+        <http://taiwan_heritage.org/resource/35次/分>,
+        <http://taiwan_heritage.org/resource/36次/分> ;
+    rdfs:comment "數量",
+        "時間" .
+
+heri:新竹 crm:P130_shows_features_of heri:界尺 ;
+    rdfs:comment "工具" .
+
+heri:旌表 crm:P130_shows_features_of heri:觀音山石 ;
+    rdfs:comment "材料應用" .
+
+heri:時間 crm:P130_shows_features_of heri:影響,
+        heri:效果,
+        heri:飼灰 ;
+    rdfs:comment "範疇",
+        "註解：時間越久，灰漿效果越佳（主觀評價）",
+        "越久越好" .
+
+heri:晚期強度 crm:P130_shows_features_of heri:更高 ;
+    rdfs:comment "註解：狀態實體" .
+
+heri:曲度 crm:P130_shows_features_of heri:押板,
+        heri:燕尾骨架,
+        heri:紮綁不鏽鋼絲 ;
+    rdfs:comment "物理特徵",
+        "行為實體（狀態實體：紮綁狀態）" .
+
+heri:杓子 crm:P130_shows_features_of heri:土捧 ;
+    rdfs:comment "別稱（thô͘-phâng）" .
+
+heri:桶子 crm:P130_shows_features_of heri:拌合 ;
+    rdfs:comment "灰泥" .
+
+heri:槌子 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:使用 ;
+    rdfs:comment "工具組合" .
+
+heri:標準磚 crm:P130_shows_features_of heri:11公分,
+        heri:23公分,
+        heri:6公分,
+        heri:寬度,
+        heri:煉瓦,
+        heri:長度,
+        heri:高度 ;
+    rdfs:comment "文化名稱",
+        "物理特徵",
+        "物理特徵（寬）",
+        "物理特徵（長）",
+        "物理特徵（高）" .
+
+heri:正方形 crm:P130_shows_features_of heri:地面 ;
+    rdfs:comment "結構功能" .
+
+heri:殼類灰 crm:P130_shows_features_of heri:塑形,
+        heri:捶鍊,
+        heri:收縮,
+        heri:牡蠣殼,
+        <http://taiwan_heritage.org/resource/碳酸鈣（CaCO₃）>,
+        heri:面層,
+        heri:龜裂 ;
+    rdfs:comment "使用場域",
+        "化學物質",
+        "後續處理",
+        "材料來源",
+        "物理特徵",
+        "生物來源",
+        "缺陷" .
+
+heri:比例 crm:P130_shows_features_of heri:重量單位 ;
+    rdfs:comment "量化" .
+
+heri:氣泡 crm:P130_shows_features_of heri:刻度中央 ;
+    crm:P53_has_former_or_current_location heri:水管 ;
+    rdfs:comment "狀態" .
+
+<http://taiwan_heritage.org/resource/氧化鈣（CaO）> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/生灰（chheⁿ-hoe）>,
+        heri:生石灰 ;
+    rdfs:comment "俗稱" .
+
+heri:水密性 a crm:E55_Type .
+
+heri:水桶 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:水 ;
+    rdfs:comment "介質",
+        "功能" .
+
+heri:水管 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:氣泡,
+        heri:虹吸 ;
+    rdfs:comment "原理",
+        "操作" .
+
+heri:河谷 a crm:E53_Place .
+
+heri:油面 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:平滑面,
+        heri:斜向黑紋,
+        heri:清水磚牆 ;
+    rdfs:comment "建築用途",
+        "物理特徵（表面處理）",
+        "視覺特徵（雁子磚）" .
+
+heri:消石灰 crm:P130_shows_features_of heri:石灰石 ;
+    rdfs:comment "循環再生" .
+
+heri:清水 crm:P130_shows_features_of heri:1.5公升,
+        heri:20公升,
+        heri:25.5公升,
+        heri:3公升,
+        heri:均勻,
+        heri:平均 ;
+    rdfs:comment "屬性",
+        "數量",
+        "方式" .
+
+heri:澎湖 a crm:E53_Place .
+
+heri:灰劍 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:刮灰,
+        heri:四方扁條,
+        heri:土捧,
+        heri:寬度,
+        heri:尺磚,
+        heri:抹灰,
+        heri:木刮尺,
+        heri:水,
+        heri:泡,
+        heri:灰泥 ;
+    crm:P45_consists_of heri:木製 ;
+    rdfs:comment "功能",
+        "名稱",
+        "工具",
+        "形狀",
+        "比較",
+        "準備步驟",
+        "物理特徵",
+        "物理特徵（與目標部位匹配）",
+        "行為" .
+
+heri:灰砂 a crm:E57_Material ;
+    crm:P130_shows_features_of heri:壁堵,
+        heri:壁堵打底,
+        heri:水泥,
+        heri:磚牆,
+        heri:磚牆疊砌,
+        heri:蓋瓦,
+        heri:鋪地坪 ;
+    rdfs:comment "材料應用",
+        "材料混合",
+        "用途" .
+
+heri:無機膠體 crm:P130_shows_features_of heri:無定形礦物,
+        heri:結晶性,
+        heri:鐵鋁氧化物,
+        heri:黏土礦物 ;
+    rdfs:comment "物理特徵",
+        "組成成分" .
+
+heri:熟石灰 crm:P130_shows_features_of heri:二氧化碳,
+        heri:強度,
+        heri:拌和,
+        heri:水分子,
+        heri:水密性,
+        heri:碳酸鈣,
+        heri:製備,
+        heri:適量 ;
+    rdfs:comment "加工步驟",
+        "化學反應",
+        "屬性",
+        "添加量",
+        "狀態",
+        "產物" .
+
+heri:燕尾骨架 crm:P130_shows_features_of heri:彎折,
+        heri:灰泥,
+        heri:瓦片,
+        heri:目標,
+        heri:砂漿 ;
+    rdfs:comment "自動提取" .
+
+heri:玄武岩 crm:P130_shows_features_of heri:不易,
+        heri:主流石材,
+        heri:代天宮,
+        heri:廣福宮,
+        heri:高 ;
+    crm:P2_has_type heri:耐候性能,
+        heri:質地 ;
+    rdfs:comment "使用狀態",
+        "古蹟建築",
+        "時空條件",
+        "環境限制",
+        "登錄建築" .
+
+heri:生甓 crm:P130_shows_features_of heri:生甓 ;
+    rdfs:comment "材料名稱（未燒製）" .
+
+heri:生石灰 crm:P130_shows_features_of heri:chheⁿ-hoe,
+        heri:氣硬性無機膠體,
+        heri:氫氧化鈣,
+        heri:水,
+        heri:消石灰,
+        heri:熟化,
+        heri:熟灰,
+        heri:養護 ;
+    rdfs:comment "化學物質",
+        "化學轉換",
+        "材料類型",
+        "物質",
+        "狀態變化",
+        "產物",
+        "行為",
+        "術語" .
+
+heri:石 a crm:E57_Material .
+
+heri:砌體 crm:P2_has_type heri:表層 .
+
+heri:砌體材 a crm:E55_Type,
+        crm:E57_Material ;
+    crm:P130_shows_features_of heri:兩個區塊材料,
+        heri:兩區塊間材料,
+        heri:圬工構造,
+        heri:圬工構造單元 ;
+    rdfs:comment "定義",
+        "物理構件",
+        "結構應用" .
+
+heri:砍劈 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:磚塊 ;
+    rdfs:comment "目標" .
+
+heri:碳化 crm:P130_shows_features_of heri:壁土 ;
+    rdfs:comment "狀態實體（因果分解）" .
+
+heri:碳酸鈣 crm:P130_shows_features_of heri:CaCO3 ;
+    rdfs:comment "化學符號" .
+
+heri:磚 a crm:E57_Material ;
+    crm:P127_has_broader_term heri:一層 ;
+    crm:P130_shows_features_of heri:30公分,
+        heri:36公分,
+        heri:五尺仔,
+        heri:六尺仔,
+        heri:尺二磚,
+        heri:尺磚,
+        heri:押尺,
+        heri:正方形 ;
+    rdfs:comment "工具",
+        "形狀特徵",
+        "文化習慣",
+        "規範標準" .
+
+heri:磚縫 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:磚縫 ;
+    rdfs:comment "目標" .
+
+heri:祭祀工具 crm:P130_shows_features_of heri:時 ;
+    rdfs:comment "註解：工具類別" .
+
+heri:筒板瓦 crm:P130_shows_features_of heri:上層表面,
+        heri:仰合瓦替代,
+        heri:兩端側面,
+        heri:寺廟建築,
+        heri:表面釉彩,
+        heri:防水性能,
+        heri:高溫燒製 ;
+    rdfs:comment "使用場域",
+        "使用場景",
+        "功能類比",
+        "施工範圍",
+        "物理特徵",
+        "物理處理",
+        "裝飾層",
+        "非釉區域" .
+
+heri:粉刷 a crm:E22_Human_Made_Object .
+
+heri:粗砂骨材 crm:P130_shows_features_of 
