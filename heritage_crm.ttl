@@ -1,0 +1,935 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix heri: <http://taiwan_heritage.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+heri:三落大宅 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:前廳,
+        heri:後廳,
+        heri:攑頭,
+        heri:正廳,
+        heri:門樓 .
+
+heri:三開間寺廟建築 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/明間（中港間）> ;
+    rdfs:comment "結構" .
+
+heri:下方硬山頂 crm:P130_shows_features_of heri:兩坡頂 ;
+    rdfs:comment "屋頂形態" .
+
+heri:中國宮殿式建築 a crm:E55_Type ;
+    crm:P2_has_type heri:須彌座 .
+
+heri:中樑前移 a crm:E89_Propositional_Object ;
+    crm:P67_refers_to heri:後簷口至中樑距離 .
+
+<http://taiwan_heritage.org/resource/中樑（棟桁）> crm:P130_shows_features_of heri:前移 ;
+    rdfs:comment "行為" .
+
+<http://taiwan_heritage.org/resource/中港間、小港間> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/中樑、楹仔相互搭接> ;
+    rdfs:comment "結構描述" .
+
+heri:中港間兩側 crm:P130_shows_features_of heri:垂脊 ;
+    rdfs:comment "結構增設" .
+
+heri:中港間屋頂抬升 crm:P130_shows_features_of heri:內部架棟抬高 ;
+    rdfs:comment "否定方式" .
+
+heri:中軸線外 crm:P130_shows_features_of heri:建築體 ;
+    rdfs:comment "非中軸線空間" .
+
+heri:修正後名稱 crm:P130_shows_features_of heri:脫歸 ;
+    rdfs:comment "專有名詞" .
+
+heri:儒家位序觀念 a crm:E89_Propositional_Object ;
+    crm:P67_refers_to heri:建築體尺度,
+        heri:臺基高度 .
+
+heri:內部架棟 crm:P130_shows_features_of heri:未抬高 ;
+    rdfs:comment "物理狀態" .
+
+heri:前坡 crm:P130_shows_features_of heri:簷高,
+        heri:長度,
+        heri:陽坡 ;
+    rdfs:comment "名稱",
+        "物理特徵" .
+
+heri:前坡簷高 crm:P130_shows_features_of heri:高 ;
+    rdfs:comment "測量結果" .
+
+heri:前坡長度 crm:P130_shows_features_of heri:短 ;
+    rdfs:comment "測量結果" .
+
+heri:前簷口至中樑 crm:P130_shows_features_of heri:小 ;
+    rdfs:comment "測量結果" .
+
+heri:北港朝天宮 crm:P130_shows_features_of heri:最早假四垂頂 ;
+    rdfs:comment "實例" .
+
+heri:北部客家建築 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:七星石,
+        heri:五星石 .
+
+heri:南部客家建築 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:五星石 .
+
+heri:合院建築群 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:各個單體建築 .
+
+heri:名詞 crm:P130_shows_features_of heri:名稱 ;
+    rdfs:comment "斷簷升箭口頂" .
+
+heri:嘉義劉鴻林大木司阜 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/假三山（ké-sam-soaⁿ）> ;
+    rdfs:comment "專有名詞" .
+
+heri:土地龍神 crm:P130_shows_features_of heri:龍脈 ;
+    rdfs:comment "風水理念" .
+
+heri:地坪頂面 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:以清水紅磚,
+        heri:以石磉,
+        heri:邊界處 ;
+    crm:P53_has_former_or_current_location heri:邊界處 ;
+    rdfs:comment "收邊",
+        "自動提取" .
+
+heri:地坪高程 crm:P130_shows_features_of heri:空間接近正殿或正廳,
+        heri:臺基高度 ;
+    rdfs:comment "名稱",
+        "增高" .
+
+heri:基礎平面 crm:P130_shows_features_of heri:上方牆體,
+        heri:立柱 ;
+    rdfs:comment "厚度",
+        "直徑" .
+
+heri:基礎構造 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:屋身,
+        heri:建築,
+        heri:承載,
+        heri:獨立柱,
+        heri:石材,
+        heri:磚材 ;
+    crm:P2_has_type heri:直下形式 ;
+    rdfs:comment "下方",
+        "周牆下方",
+        "材料",
+        "沉陷",
+        "自屋頂傳遞下來的載重" .
+
+heri:基礎與臺基構造 crm:P130_shows_features_of heri:土水司阜 ;
+    rdfs:comment "施作範圍" .
+
+heri:基礎間地面 crm:P130_shows_features_of heri:夯土 ;
+    rdfs:comment "施作" .
+
+heri:外觀抬升樣貌 crm:P130_shows_features_of heri:在中樑施作木構造墊高 ;
+    rdfs:comment "實現方式" .
+
+heri:天花板 a crm:E7_Activity ;
+    crm:P14_carried_out_by heri:拜殿作法 .
+
+heri:客家人 crm:P130_shows_features_of heri:天公,
+        heri:正廳門前,
+        heri:跨過禾埕,
+        heri:面向廳外,
+        heri:香插入左側牆上香爐,
+        heri:香插入門樓左側香爐 ;
+    rdfs:comment "民俗習慣",
+        "祭祀場域",
+        "祭祀姿勢",
+        "祭祀步驟",
+        "祭祀步驟（有門樓時）" .
+
+heri:客家夥房屋 crm:P130_shows_features_of heri:土地龍神神位 ;
+    rdfs:comment "穴位" .
+
+heri:客家建築 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:龍神信仰 ;
+    crm:P46_is_composed_of heri:土地龍神神位 ;
+    rdfs:comment "信仰實踐" .
+
+heri:屋坡 crm:P130_shows_features_of heri:一直線,
+        heri:分水,
+        heri:曲面,
+        heri:簷口楹頂至中樑頂 ;
+    rdfs:comment "形式",
+        "斜度標準",
+        "連接點" .
+
+heri:屋坡傾斜量 crm:P130_shows_features_of heri:分水 ;
+    rdfs:comment "名稱" .
+
+heri:屋頂下方 a crm:E89_Propositional_Object ;
+    crm:P67_refers_to heri:楹仔 .
+
+heri:屋頂型態 crm:P130_shows_features_of heri:大木司阜 ;
+    rdfs:comment "責任單位" .
+
+heri:屋頂基本造型 crm:P130_shows_features_of heri:屋身施作時 ;
+    rdfs:comment "時間節點" .
+
+heri:屋頂構造 crm:P130_shows_features_of heri:凸归 ;
+    rdfs:comment "文獻記錄" .
+
+heri:屋頂樣貌 crm:P130_shows_features_of heri:真山 ;
+    rdfs:comment "分類" .
+
+heri:屋頂覆蓋面積 crm:P130_shows_features_of heri:大 ;
+    rdfs:comment "保護需求" .
+
+heri:屋頂造型 crm:P130_shows_features_of heri:兩坡斜屋頂 ;
+    rdfs:comment "類型" .
+
+heri:屋頂面闊面積 crm:P130_shows_features_of heri:大於 ;
+    rdfs:comment "屋身面闊面積" .
+
+heri:屋頂高度 crm:P130_shows_features_of heri:高 ;
+    rdfs:comment "測量結果" .
+
+heri:建築儀式 a crm:E7_Activity ;
+    crm:P14_carried_out_by heri:業主 .
+
+heri:建築物 crm:P130_shows_features_of heri:實體空間,
+        heri:曲線樣態 ;
+    rdfs:comment "外觀特徵",
+        "物理層面" .
+
+heri:建築群 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:埕 .
+
+heri:建築類型 crm:P130_shows_features_of heri:寺廟 ;
+    rdfs:comment "空間格局示例" .
+
+heri:後坡 crm:P130_shows_features_of heri:簷口高度,
+        heri:長度,
+        heri:陰坡 ;
+    rdfs:comment "名稱",
+        "物理特徵" .
+
+heri:後坡簷口高度 crm:P130_shows_features_of heri:低 ;
+    rdfs:comment "測量結果" .
+
+heri:後坡長度 crm:P130_shows_features_of heri:長 ;
+    rdfs:comment "測量結果" .
+
+heri:後壁廖枝德 crm:P130_shows_features_of heri:描述 ;
+    rdfs:comment "屋頂構造" .
+
+heri:抬升 a crm:E7_Activity,
+        crm:E89_Propositional_Object ;
+    crm:P14_carried_out_by heri:中港間構造 ;
+    crm:P67_refers_to heri:屋頂 .
+
+heri:捲棚頂構造 crm:P130_shows_features_of heri:出現問題 ;
+    rdfs:comment "可能性" .
+
+heri:排列 a crm:E7_Activity ;
+    crm:P14_carried_out_by heri:砌 .
+
+heri:收邊 crm:P130_shows_features_of heri:砛仔 ;
+    rdfs:comment "名稱" .
+
+heri:新埔夥房屋 a crm:E55_Type ;
+    crm:P2_has_type heri:正廳 .
+
+heri:施作時間 crm:P130_shows_features_of heri:1910年前後 ;
+    rdfs:comment "時間節點" .
+
+heri:日常祭祀 a crm:E7_Activity ;
+    crm:P14_carried_out_by heri:厝屋主人 .
+
+heri:日治時期 crm:P130_shows_features_of heri:水泥 ;
+    rdfs:comment "材料變革" .
+
+heri:日治時期以後 crm:P130_shows_features_of heri:現代建築構法,
+        heri:磚放腳基礎 ;
+    rdfs:comment "基礎構造",
+        "影響" .
+
+heri:明間 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/中樑、楹仔水平放置> ;
+    rdfs:comment "結構特徵" .
+
+heri:曲面屋頂 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/醞水（ùn-chúi）> ;
+    rdfs:comment "名稱" .
+
+heri:最頂部 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:兩根楹仔上方 .
+
+heri:木構造墊高 crm:P130_shows_features_of heri:土水司阜 ;
+    rdfs:comment "責任單位" .
+
+heri:本書 crm:P130_shows_features_of heri:凸归 ;
+    rdfs:comment "學術修正" .
+
+heri:李乾朗 crm:P130_shows_features_of heri:提出 ;
+    rdfs:comment "名詞",
+        "學術貢獻" .
+
+heri:次間 crm:P130_shows_features_of heri:中港間向兩側壁 ;
+    rdfs:comment "方向" .
+
+<http://taiwan_heritage.org/resource/次間（小港間）> crm:P130_shows_features_of <http://taiwan_heritage.org/resource/中樑、楹仔起翹> ;
+    rdfs:comment "結構特徵" .
+
+heri:民居建築 crm:P130_shows_features_of heri:屋頂作法 ;
+    rdfs:comment "歷史實踐" .
+
+heri:海菜 crm:P130_shows_features_of heri:使灰土凝固速度緩慢 ;
+    rdfs:comment "物理效果" .
+
+heri:漢式傳統建築 crm:P130_shows_features_of heri:建築等級,
+        heri:建築規模,
+        heri:空間主從關係,
+        heri:裝飾 ;
+    rdfs:comment "原則",
+        "文化特徵" .
+
+heri:灰土乾硬後 crm:P130_shows_features_of heri:潔白,
+        heri:細緻,
+        heri:色澤,
+        heri:質地 ;
+    rdfs:comment "測量結果",
+        "物理特徵" .
+
+heri:牆面舖面 crm:P130_shows_features_of heri:吉祥圖案 ;
+    rdfs:comment "形態" .
+
+heri:真山作法 crm:P130_shows_features_of heri:假四垂頂 ;
+    rdfs:comment "分類" .
+
+heri:祭祀 a crm:E7_Activity ;
+    crm:P17_was_motivated_by heri:保佑闔家平安 .
+
+heri:空地 a crm:E22_Human_Made_Object ;
+    crm:P46_is_composed_of heri:井 .
+
+heri:空間 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:正廳,
+        heri:正殿 .
+
+heri:簷口 crm:P130_shows_features_of heri:3-5寸 ;
+    rdfs:comment "測量結果" .
+
+heri:純裝飾領域 crm:P130_shows_features_of heri:專業分工 ;
+    rdfs:comment "結果" .
+
+heri:臺基內部 crm:P130_shows_features_of heri:夯土 ;
+    rdfs:comment "施作" .
+
+heri:臺灣漢人傳統建築構造 crm:P130_shows_features_of heri:基礎,
+        heri:屋身,
+        heri:屋頂,
+        heri:臺基,
+        heri:裝修 ;
+    rdfs:comment "部分" .
+
+heri:舖 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:人踩踏,
+        heri:泥土,
+        heri:泥濘,
+        heri:華麗感,
+        heri:裝飾層次,
+        heri:面層 ;
+    crm:P53_has_former_or_current_location heri:地坪 ;
+    rdfs:comment "功能",
+        "效果",
+        "材料",
+        "狀態",
+        "級別",
+        "領域" .
+
+heri:落峨間高度 crm:P130_shows_features_of heri:低矮 ;
+    rdfs:comment "測量結果" .
+
+heri:裝飾作法 crm:P130_shows_features_of heri:塑,
+        heri:畫,
+        heri:砌,
+        heri:貼與舖,
+        heri:雕 ;
+    rdfs:comment "分類" .
+
+heri:裝飾元素 crm:P130_shows_features_of heri:已定位建築部件,
+        heri:構造元素 ;
+    rdfs:comment "狀態",
+        "關係" .
+
+heri:裝飾施作 crm:P130_shows_features_of heri:畫稿 ;
+    rdfs:comment "前提" .
+
+heri:裝飾特性 crm:P130_shows_features_of heri:藝術部門 ;
+    rdfs:comment "比較" .
+
+heri:貼 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:保護,
+        heri:內部,
+        heri:牆面裝修,
+        heri:疊砌材料,
+        heri:耐候性,
+        heri:面層 ;
+    crm:P53_has_former_or_current_location heri:牆面 ;
+    rdfs:comment "功能",
+        "屬性",
+        "材料",
+        "部位",
+        "領域" .
+
+heri:貼附 a crm:E7_Activity ;
+    crm:P130_shows_features_of heri:八吉,
+        heri:八角形油面磚 ;
+    crm:P14_carried_out_by heri:板橋林本源園邸 ;
+    rdfs:comment "文化意涵",
+        "材料" .
+
+heri:近代 crm:P130_shows_features_of heri:鋼筋混凝土 ;
+    rdfs:comment "基礎構造" .
+
+heri:通樑 a crm:E55_Type ;
+    crm:P2_has_type heri:獅座,
+        heri:瓜筒,
+        heri:象座,
+        heri:飛魚插角 .
+
+heri:過去 crm:P130_shows_features_of heri:燒製技術 ;
+    rdfs:comment "技術限制" .
+
+heri:醞水 a crm:E89_Propositional_Object ;
+    crm:P130_shows_features_of heri:逐漸緩和 ;
+    crm:P67_refers_to heri:屋坡斜度 ;
+    rdfs:comment "變化過程" .
+
+heri:閩南人 crm:P130_shows_features_of heri:天公,
+        heri:正廳門前,
+        heri:面向廳外,
+        heri:香插入左側門旁香爐 ;
+    rdfs:comment "民俗習慣",
+        "祭祀場域",
+        "祭祀姿勢",
+        "祭祀步驟" .
+
+heri:陳應彬 crm:P130_shows_features_of heri:主持施作 ;
+    rdfs:comment "建築工程" .
+
+heri:七星石 a crm:E22_Human_Made_Object .
+
+heri:三進格局 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:前至後 ;
+    crm:P46_is_composed_of heri:三川殿,
+        heri:廟室仔,
+        heri:後殿,
+        heri:拜殿,
+        heri:正殿,
+        heri:過水廊 ;
+    rdfs:comment "空間排列順序" .
+
+heri:三間正身 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:落峨間 ;
+    rdfs:comment "結構配置" .
+
+heri:中樑端部 crm:P130_shows_features_of heri:封圍 ;
+    rdfs:comment "保護方式" .
+
+heri:中港間構造 a crm:E39_Actor .
+
+<http://taiwan_heritage.org/resource/中脊（或中棟）> crm:P130_shows_features_of heri:無 ;
+    rdfs:comment "存在狀態" .
+
+heri:井 a crm:E22_Human_Made_Object,
+        crm:E55_Type ;
+    crm:P2_has_type heri:天井,
+        heri:深井 .
+
+heri:交趾陶 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:交趾燒,
+        heri:墀頭,
+        heri:提升耐久性,
+        heri:提升裝飾性,
+        heri:昂貴,
+        heri:水車堵,
+        heri:製陶上釉燒製,
+        heri:身堵,
+        heri:鮮豔釉色 ;
+    crm:P53_has_former_or_current_location heri:建築物牆面 ;
+    rdfs:comment "名稱變體",
+        "物理效果",
+        "經濟特徵",
+        "藝術效果",
+        "裝飾特徵",
+        "裝飾部位",
+        "製作技術" .
+
+heri:交趾陶代用品 a crm:E89_Propositional_Object .
+
+heri:保佑闔家平安 a crm:E89_Propositional_Object .
+
+heri:偶數架 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/無中樑（棟桁）> ;
+    rdfs:comment "結果",
+        "行為實體" .
+
+heri:兩坡斜屋頂 crm:P130_shows_features_of heri:類型 ;
+    rdfs:comment "分類結果" .
+
+heri:兩根楹仔上方 a crm:E53_Place ;
+    crm:P130_shows_features_of heri:中樑 ;
+    rdfs:comment "結構增設" .
+
+heri:前廳 a crm:E22_Human_Made_Object .
+
+heri:前後兩坡頂部 a crm:E53_Place .
+
+heri:前至後 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:三川殿,
+        heri:廟室仔,
+        heri:後殿,
+        heri:拜殿,
+        heri:正殿,
+        heri:過水廊 .
+
+heri:剪黏 a crm:E22_Human_Made_Object,
+        crm:E7_Activity ;
+    crm:P130_shows_features_of heri:剪而黏,
+        heri:剪花,
+        heri:塑膠片,
+        heri:提升屋頂豐富度,
+        heri:泥塑,
+        heri:玻璃片,
+        heri:陶片,
+        heri:類似交趾陶 ;
+    crm:P17_was_motivated_by heri:交趾陶代用品 ;
+    crm:P53_has_former_or_current_location heri:屋頂裝飾 ;
+    rdfs:comment "優劣評估",
+        "名稱變體",
+        "材料基礎",
+        "材料變化",
+        "藝術效果",
+        "裝飾材料",
+        "製作方法" .
+
+heri:加層 crm:P130_shows_features_of heri:歇山頂 ;
+    rdfs:comment "結構增建" .
+
+heri:厝屋主人 a crm:E39_Actor .
+
+heri:各個單體建築 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:所屬建築類型 ;
+    rdfs:comment "空間名稱差異" .
+
+heri:四坡頂上方 a crm:E53_Place .
+
+heri:四垂 crm:P130_shows_features_of heri:四坡頂 ;
+    rdfs:comment "結構特徵" .
+
+heri:地平面 a crm:E53_Place .
+
+heri:垂脊 a crm:E7_Activity ;
+    crm:P17_was_motivated_by heri:增加層次變化 .
+
+heri:埕 a crm:E22_Human_Made_Object,
+        crm:E55_Type ;
+    crm:P2_has_type heri:廟埕,
+        heri:禾埕,
+        heri:門口埕 .
+
+heri:增加層次變化 a crm:E89_Propositional_Object .
+
+heri:外觀 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/中脊（或中棟）> ;
+    rdfs:comment "物理特徵" .
+
+heri:封圍 crm:P130_shows_features_of heri:封簷板 ;
+    rdfs:comment "結構材料" .
+
+heri:屋脊 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of <http://taiwan_heritage.org/resource/中高、左右略低三段> ;
+    crm:P53_has_former_or_current_location heri:前後兩坡頂部 ;
+    rdfs:comment "結構分段" .
+
+heri:屋身面闊 crm:P130_shows_features_of heri:面積 ;
+    rdfs:comment "測量結果" .
+
+heri:屋頂上 a crm:E53_Place .
+
+heri:屋頂作法 crm:P130_shows_features_of heri:斷簷升箭口頂 ;
+    rdfs:comment "結構對比" .
+
+heri:屋頂外觀樣貌 crm:P130_shows_features_of heri:硬山頂,
+        heri:硬山頂衍生屋頂,
+        heri:變化 ;
+    rdfs:comment "比較對象",
+        "變化結果" .
+
+heri:屋頂裝飾 a crm:E53_Place .
+
+heri:屋頂覆蓋 crm:P130_shows_features_of heri:面積 ;
+    rdfs:comment "測量結果" .
+
+heri:屋頂面闊 crm:P130_shows_features_of heri:屋身面闊,
+        heri:面積 ;
+    rdfs:comment "比例關係",
+        "測量結果" .
+
+heri:山牆 crm:P130_shows_features_of heri:屋頂覆蓋 ;
+    rdfs:comment "保護功能" .
+
+heri:山牆上方屋頂邊界 a crm:E53_Place .
+
+heri:山牆外 a crm:E53_Place .
+
+heri:建築物後側七星石前方 a crm:E53_Place .
+
+heri:建築物後側五星石前方 a crm:E53_Place .
+
+heri:建築物後側化胎前方 a crm:E53_Place .
+
+heri:建築物牆面 a crm:E53_Place .
+
+heri:建築體 crm:P130_shows_features_of heri:小於中軸線建築,
+        heri:愈近中心愈高 ;
+    rdfs:comment "非中軸線空間" .
+
+heri:後廳 a crm:E22_Human_Made_Object .
+
+heri:後簷口至中樑距離 crm:P130_shows_features_of heri:大 ;
+    rdfs:comment "測量結果" .
+
+heri:懸山頂 crm:P130_shows_features_of heri:中樑,
+        heri:中樑端部,
+        heri:兩坡頂,
+        heri:屋頂面闊,
+        heri:山牆,
+        heri:楹仔 ;
+    rdfs:comment "空間結果",
+        "結構部件",
+        "結構類型" .
+
+heri:拜殿作法 a crm:E39_Actor ;
+    crm:P130_shows_features_of heri:偶數架 ;
+    rdfs:comment "結構特徵" .
+
+heri:捲棚頂 crm:P130_shows_features_of heri:偶數,
+        heri:寺廟建築,
+        heri:硬山頂 ;
+    rdfs:comment "使用場域",
+        "建築類型",
+        "數量特徵" .
+
+heri:攑頭 a crm:E22_Human_Made_Object .
+
+heri:暗厝作法 a crm:E89_Propositional_Object ;
+    crm:P130_shows_features_of heri:屋頂外觀樣貌變化 ;
+    crm:P67_refers_to heri:屋頂外觀樣貌 ;
+    rdfs:comment "行為實體" .
+
+heri:板橋林本源園邸 a crm:E39_Actor .
+
+heri:業主 a crm:E39_Actor .
+
+heri:正廳神龕桌下方 a crm:E53_Place .
+
+heri:歸帶 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:山牆上方屋頂邊界 .
+
+heri:水泥 crm:P130_shows_features_of heri:快乾,
+        heri:灰土 ;
+    rdfs:comment "材料改良",
+        "物理效果" .
+
+heri:灰土 crm:P130_shows_features_of heri:傳統土水作,
+        heri:土,
+        heri:煮熟的海菜,
+        <http://taiwan_heritage.org/resource/石灰（貝殼灰）>,
+        heri:糯米漿,
+        heri:紅糖,
+        heri:陶土,
+        heri:麻絲 ;
+    rdfs:comment "材料成分",
+        "材料改良",
+        "材料類似性",
+        "材料類別" .
+
+<http://taiwan_heritage.org/resource/無中樑（棟桁）> a crm:E89_Propositional_Object ;
+    crm:P130_shows_features_of heri:存在 ;
+    crm:P67_refers_to heri:外觀 ;
+    rdfs:comment "物理狀態" .
+
+heri:燒製技術 a crm:E89_Propositional_Object ;
+    crm:P67_refers_to heri:大型交趾陶 .
+
+heri:燕尾 crm:P130_shows_features_of heri:功名人家,
+        heri:寺廟 ;
+    rdfs:comment "文化背景" .
+
+heri:牆上 a crm:E53_Place .
+
+heri:牆面 a crm:E53_Place .
+
+heri:畫 crm:P130_shows_features_of heri:裝飾類別基礎 ;
+    rdfs:comment "關係" .
+
+heri:真山 crm:P130_shows_features_of heri:三川脊頂 ;
+    rdfs:comment "比較" .
+
+heri:砛仔 crm:P130_shows_features_of heri:施作,
+        heri:石砛 ;
+    rdfs:comment "名稱",
+        "自動提取" .
+
+heri:脫歸 crm:P130_shows_features_of heri:相鄰兩開間歸帶相互脫開 ;
+    rdfs:comment "結構特徵" .
+
+heri:臺基 crm:P130_shows_features_of heri:石磉,
+        heri:紅磚 ;
+    rdfs:comment "封邊",
+        "疊砌封邊" .
+
+heri:落峨間 crm:P130_shows_features_of heri:落額,
+        heri:落鵝,
+        heri:高度 ;
+    rdfs:comment "同義詞",
+        "物理特徵" .
+
+heri:重簷歇山頂 crm:P130_shows_features_of heri:最高級屋頂形式,
+        heri:臺灣漢式傳統建築 ;
+    rdfs:comment "文化類型",
+        "等級描述" .
+
+heri:門樓 a crm:E22_Human_Made_Object .
+
+heri:須彌座 crm:P130_shows_features_of heri:臺灣傳統漢式建築 ;
+    rdfs:comment "作法" .
+
+heri:三川殿 a crm:E22_Human_Made_Object,
+        crm:E53_Place .
+
+heri:三川脊頂 crm:P130_shows_features_of heri:假山,
+        heri:寺廟三川殿,
+        heri:平面開間格局 ;
+    rdfs:comment "使用場域",
+        "分類",
+        "結構設計" .
+
+heri:中樑 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:15寸,
+        heri:挑出,
+        heri:暗厝作法,
+        heri:被抬升 ;
+    crm:P53_has_former_or_current_location heri:山牆外 ;
+    rdfs:comment "專有名詞",
+        "測量結果",
+        "結構方式",
+        "結構變化" .
+
+heri:中軸線 a crm:E53_Place,
+        crm:E89_Propositional_Object ;
+    crm:P130_shows_features_of heri:厝屋正廳,
+        heri:寺廟正殿 ;
+    crm:P67_refers_to heri:建築尊貴性,
+        heri:建築規模 ;
+    rdfs:comment "建築體" .
+
+heri:五星石 a crm:E22_Human_Made_Object .
+
+heri:假四垂頂 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/上層四垂、下層兩坡>,
+        heri:類型 ;
+    rdfs:comment "真山作法",
+        "結構定義" .
+
+heri:分水 crm:P130_shows_features_of heri:三點五分水,
+        heri:四分水,
+        heri:水平向10單位,
+        heri:高度抬升3.5單位,
+        heri:高度抬升4單位 ;
+    rdfs:comment "具體例子",
+        "具體例子（重複）",
+        "基準",
+        "基準（重複）",
+        "變化",
+        "變化（重複）" .
+
+heri:四坡頂 crm:P130_shows_features_of heri:硬山頂,
+        heri:重簷歇山頂 ;
+    rdfs:comment "結果",
+        "結構關係" .
+
+heri:土地龍神神位 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:建築物後側七星石前方,
+        heri:建築物後側五星石前方,
+        heri:建築物後側化胎前方,
+        heri:正廳神龕桌下方 .
+
+heri:地坪 a crm:E22_Human_Made_Object,
+        crm:E53_Place ;
+    crm:P130_shows_features_of heri:臺基構造 ;
+    crm:P53_has_former_or_current_location heri:地平面 ;
+    rdfs:comment "名稱" .
+
+heri:塑 crm:P130_shows_features_of heri:交趾陶,
+        heri:剪黏,
+        heri:泥塑 ;
+    rdfs:comment "子類" .
+
+heri:寺廟 a crm:E55_Type ;
+    crm:P2_has_type heri:三進格局 .
+
+heri:屋身 a crm:E22_Human_Made_Object ;
+    crm:P53_has_former_or_current_location heri:地坪 .
+
+heri:屋頂 crm:P130_shows_features_of heri:土水司阜,
+        heri:正面,
+        heri:特色,
+        heri:縱剖面,
+        heri:臺灣傳統漢式建築,
+        heri:高度 ;
+    rdfs:comment "建築風格",
+        "文化遺產",
+        "物理特徵",
+        "視角",
+        "責任區塊" .
+
+heri:廟室仔 a crm:E22_Human_Made_Object,
+        crm:E53_Place .
+
+heri:後殿 a crm:E22_Human_Made_Object,
+        crm:E53_Place .
+
+heri:拜殿 a crm:E22_Human_Made_Object,
+        crm:E53_Place .
+
+heri:斷簷升箭口頂 crm:P130_shows_features_of heri:中央一間或三間之楹仔與中樑被抬升 ;
+    rdfs:comment "結構特徵" .
+
+heri:楹仔 a crm:E89_Propositional_Object ;
+    crm:P130_shows_features_of heri:挑出,
+        heri:被抬升 ;
+    crm:P67_refers_to heri:屋頂起翹程度 ;
+    rdfs:comment "結構方式",
+        "結構變化" .
+
+heri:歇山頂 a crm:E55_Type ;
+    crm:P130_shows_features_of heri:四坡頂,
+        heri:四坡頂承載兩坡硬山頂,
+        heri:四垂,
+        <http://taiwan_heritage.org/resource/四垂（sì-sûi）> ;
+    crm:P2_has_type heri:四向屋坡 ;
+    rdfs:comment "別名",
+        "屋頂形態",
+        "結構描述",
+        "結構變化" .
+
+heri:泥塑 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:不耐用,
+        heri:塑偶,
+        heri:損毀,
+        heri:灰土塑形,
+        heri:表面上色,
+        heri:雨水 ;
+    crm:P53_has_former_or_current_location heri:屋頂上,
+        heri:牆上 ;
+    rdfs:comment "材料製程",
+        "物理特徵",
+        "環境影響",
+        "結果",
+        "藝術應用",
+        "裝飾步驟" .
+
+heri:臺灣傳統漢式建築 crm:P130_shows_features_of heri:陰陽坡 ;
+    rdfs:comment "設計理念" .
+
+heri:裝飾 crm:P130_shows_features_of heri:使建築物成為有象徵形式,
+        heri:僭越,
+        heri:具有個性,
+        heri:具有生命,
+        heri:功能,
+        heri:成為有機體,
+        heri:教化,
+        heri:禮制原則,
+        heri:空間尺度,
+        heri:約定成俗形象,
+        heri:面層 ;
+    rdfs:comment "功能",
+        "原則",
+        "定義",
+        "影響",
+        "目的",
+        "結果" .
+
+heri:過水廊 a crm:E22_Human_Made_Object,
+        crm:E53_Place .
+
+heri:邊界處 a crm:E53_Place .
+
+heri:類型 crm:P130_shows_features_of heri:三川脊頂,
+        heri:假四垂頂,
+        heri:懸山頂,
+        heri:捲棚頂,
+        heri:斷簷升箭口頂,
+        heri:歇山頂,
+        heri:硬山頂 ;
+    rdfs:comment "建築樣式" .
+
+heri:土水司阜 crm:P130_shows_features_of <http://taiwan_heritage.org/resource/堆土、疊砌工法>,
+        heri:堆土方法,
+        heri:塑,
+        heri:屋頂外觀造型,
+        heri:屋頂施作,
+        heri:平順挺拔完成面,
+        heri:砌,
+        heri:貼舖,
+        heri:起翹幅度 ;
+    rdfs:comment "修飾過程",
+        "專業領域",
+        "工作內容",
+        "工法",
+        "成果" .
+
+heri:正廳 a crm:E22_Human_Made_Object,
+        crm:E53_Place ;
+    crm:P53_has_former_or_current_location heri:三間正身,
+        heri:中軸線 .
+
+heri:正殿 a crm:E22_Human_Made_Object,
+        crm:E53_Place ;
+    crm:P53_has_former_or_current_location heri:中軸線 .
+
+heri:砌 a crm:E39_Actor ;
+    crm:P130_shows_features_of heri:一主秩序,
+        heri:几何圖案,
+        heri:工法,
+        heri:文字,
+        heri:材料組合,
+        heri:欄杆,
+        heri:漏窗,
+        heri:瓦,
+        heri:相同材料,
+        heri:石,
+        heri:磚,
+        heri:結構體,
+        heri:裝飾 ;
+    rdfs:comment "功能",
+        "參考",
+        "實例",
+        "形態",
+        "材料",
+        "樣式",
+        "結構/裝飾",
+        "部分" .
+
+heri:面層 crm:P130_shows_features_of heri:提升構造體耐久性,
+        heri:裝修 ;
+    rdfs:comment "目的",
+        "術語" .
+
+heri:硬山頂 a crm:E22_Human_Made_Object ;
+    crm:P130_shows_features_of heri:兩坡頂,
+        heri:加層,
+        heri:屋脊,
+        heri:屋頂形式,
+        heri:山牆封邊,
+        heri:棟頭收尾,
+        heri:歸帶,
+        heri:燕尾 ;
+    crm:P53_has_former_or_current_location heri:四坡頂上方 ;
+    rdfs:comment "建築特徵",
+        "結構方式",
+        "結構變化",
+        "結構部件",
+        "結構類型",
+        "裝飾方式" .
+
